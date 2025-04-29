@@ -5,7 +5,6 @@ $api_target = $_POST['api_target'] ?? '';
 
 $environments = [
   "local" => "http://192.168.1.111:8000/",
-  "internal" => "https://next-staging-v211x.api.staging.worky.com.tw/",
 ];
 $api_base = $environments["local"];
 $api_url = $api_base . $api_target;
@@ -31,8 +30,6 @@ curl_close($ch);
 
 // 輸出
 $result = json_decode($response, true);
-echo "<pre>FastAPI Response 原始內容：</pre>";
-echo "<pre>" . json_encode($result, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE) . "</pre>";
 
 // 顯示結果欄位
 foreach (['status', 'result', 'message', 'msg', 'info'] as $field) {
@@ -40,6 +37,9 @@ foreach (['status', 'result', 'message', 'msg', 'info'] as $field) {
         echo "<p><b>$field</b>：{$result[$field]}</p>";
     }
 }
+
+echo "<pre>Response：</pre>";
+echo "<pre>" . json_encode($result, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE) . "</pre>";
 
 if (curl_errno($ch)) {
     echo "<pre style='color:red;'>cURL 錯誤：" . curl_error($ch) . "</pre>";

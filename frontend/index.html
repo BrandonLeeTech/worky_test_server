@@ -5,30 +5,84 @@
   <title>測試任務表單</title>
 </head>
 <body>
-  <form action="send_api.php" method="POST">
-    <label>使用者名稱：</label>
-    <input type="text" name="username"><br>
+  <form id="testForm" action="send_api.php" method="POST">
+    <label>呼叫 API 測試：
+      <select id="api_target" name="api_target">
+        <option value="get-test">測試_get</option>
+        <option value="post-test">測試_post</option>
+        <option value="build_employer">註冊商家</option>
+      </select><br>
+    </label>
 
-    <label>測試類型：</label>
-    <select name="test_type">
-      <option value="UI測試">UI測試</option>
-      <option value="API測試">API測試</option>
-    </select><br>
+    <!-- 註冊商家相關欄位 -->
+    <div id="fields_build_employer">
+      <label>測試環境：
+        <select name="base_url">
+          <option value="https://next-staging-v211x.api.staging.worky.com.tw/">staging v211</option>
+          <option value="https://next-staging-v210x.api.staging.worky.com.tw/">staging v210</option>
+        </select>
+      </label><br>
+      <label>商店名稱：
+        <input type="text" name="e_name">
+      </label><br>
+      <label>電話：
+        <input type="text" name="e_phone">
+      </label><br>
+    </div>
 
-    <label>商店名稱：</label>
-    <input type="text" name="e_name"><br>
+    <!-- post-test 相關欄位 -->
+    <div id="fields_post-test">
+      <label>使用者名稱：
+        <input type="text" name="username">
+      </label><br>
+    </div>
 
-    <label>電話：</label>
-    <input type="text" name="e_phone"><br>
-
-    <label>呼叫 API 路由：</label>
-    <select name="api_target">
-      <option value="build_employer">/build_employer</option>
-      <option value="post-test">/post-test</option>
-      <option value="get-test">/get-test</option>
-    </select><br>
-
+    <!-- get-test 無需任何欄位 -->
     <button type="submit">送出測試任務</button>
   </form>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const apiSelect = document.getElementById("api_target");
+      const form = document.getElementById("testForm");
+
+      // 判斷測試選擇的 target
+      const fieldGroups = {
+        "build_employer": document.getElementById("fields_build_employer"),
+        "post-test": document.getElementById("fields_post-test"),
+        "get-test": null  // 不需要欄位
+      };
+
+      // 判斷必填欄位
+      const requiredFields = {
+        "build_employer": ["base_url", "e_name", "e_phone"],
+        "post-test": ["username"]
+      };
+
+
+    function updateFieldVisibility() {
+      const selected = apiSelect.value;
+
+      // 顯示或隱藏區塊
+      for (const [key, el] of Object.entries(fieldGroups)) {
+        if (el) el.style.display = (key === selected) ? "block" : "none";
+      }
+
+      // 清除所有 required
+      form.querySelectorAll("input, select").forEach(el => el.required = false);
+
+      // 為選中的 API 加上 required
+      if (requiredFields[selected]) {
+        requiredFields[selected].forEach(name => {
+          const el = form.querySelector(`[name="${name}"]`);
+          if (el) el.required = true;
+        });
+      }
+    }
+
+    apiSelect.addEventListener("change", updateFieldVisibility);
+    updateFieldVisibility(); // 初始化
+  });
+  </script>
 </body>
 </html>
