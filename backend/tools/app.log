@@ -1,0 +1,1494 @@
+INFO:root:📌 測試 API : 103
+INFO:root:儲存 [E_login_code]:9356
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_login_code"}
+INFO:root:獲取 [E_login_code] => 9356
+INFO:root:📌 測試 API : 104
+INFO:root:儲存 [E_TOKEN]:d253ad0451243722962a3efeff8d90ee1b1659a1f1f894cfbd4188e730b0531f|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:獲取 [E_TOKEN] => d253ad0451243722962a3efeff8d90ee1b1659a1f1f894cfbd4188e730b0531f|1|staging
+INFO:root:📌 測試 API : 161
+INFO:root:儲存 [E_credit_card_url]:https://payment-stage.funpoint.com.tw/MerchantMember/TradeWithBindingCardID?MerchantID=1000060&MerchantMemberID=1000060E0000001550S&ServerReplyURL=https%3A%2F%2Fnext-staging-v210x.pay.staging.worky.com.tw%2Ffun-point%2Fbind-credit-card-notify&ClientRedirectURL=https%3A%2F%2Fnext-staging-v210x.pay.staging.worky.com.tw%2Ffun-point%2Fbind-credit-card-callback&MerchantTradeNo=WB250412190000003S&MerchantTradeDate=2025%2F04%2F12+19%3A19%3A21&TotalAmount=6&TradeDesc=%25E7%25B6%2581%25E5%25AE%259A%25E4%25BF%25A1%25E7%2594%25A8%25E5%258D%25A1&stage=0&CheckMacValue=115E60C06F5FB55877CF2F0FBD4541B51BAB8A07A795285DEAAB478DB38DDCCE
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_credit_card_url"}
+INFO:root:獲取 [E_credit_card_url] => https://payment-stage.funpoint.com.tw/MerchantMember/TradeWithBindingCardID?MerchantID=1000060&MerchantMemberID=1000060E0000001550S&ServerReplyURL=https%3A%2F%2Fnext-staging-v210x.pay.staging.worky.com.tw%2Ffun-point%2Fbind-credit-card-notify&ClientRedirectURL=https%3A%2F%2Fnext-staging-v210x.pay.staging.worky.com.tw%2Ffun-point%2Fbind-credit-card-callback&MerchantTradeNo=WB250412190000003S&MerchantTradeDate=2025%2F04%2F12+19%3A19%3A21&TotalAmount=6&TradeDesc=%25E7%25B6%2581%25E5%25AE%259A%25E4%25BF%25A1%25E7%2594%25A8%25E5%258D%25A1&stage=0&CheckMacValue=115E60C06F5FB55877CF2F0FBD4541B51BAB8A07A795285DEAAB478DB38DDCCE
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:There is no [win64] edgedriver "135.0.3179.66" for browser edge "135.0.3179" in cache
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:About to download new driver from https://msedgedriver.azureedge.net/135.0.3179.66/edgedriver_win64.zip
+INFO:WDM:Driver downloading response is 200
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Driver has been saved in cache [C:\Users\brandon.lee\.wdm\drivers\edgedriver\win64\135.0.3179.73]
+INFO:root:測試 信用卡設定
+INFO:root:[pages/other/credit_card_headless.py]
+INFO:root:定位: 
+INFO:root:輸入: 4311958888888888
+INFO:root:定位: 月份
+INFO:root:點擊: 月份
+INFO:root:定位: 10月
+INFO:root:點擊: 10月
+INFO:root:定位: 年份
+INFO:root:點擊: 年份
+INFO:root:定位: 2031年
+INFO:root:點擊: 2031年
+INFO:root:定位: 
+INFO:root:輸入: 222
+INFO:root:定位: 送出
+INFO:root:點擊: 送出
+INFO:root:定位: 送出
+INFO:root:點擊: 送出
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:獲取 [E_TOKEN] => d253ad0451243722962a3efeff8d90ee1b1659a1f1f894cfbd4188e730b0531f|1|staging
+INFO:root:📌 測試 API : 171
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:獲取 [E_TOKEN] => d253ad0451243722962a3efeff8d90ee1b1659a1f1f894cfbd4188e730b0531f|1|staging
+INFO:root:📌 測試 API : 173
+INFO:root:📌 測試 API : 201
+INFO:root:儲存 [L_register_code]:2133
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "L_register_code"}
+INFO:root:獲取 [L_register_code] => 2133
+INFO:root:📌 測試 API : 202
+INFO:root:儲存 [L_TOKEN]:a4d48ce294dc27f732a4be92c76df6129f5edc39ee1960541cf2d177593d8130|2|staging
+INFO:root:📌 測試 API : 203
+INFO:root:儲存 [L_login_code]:7784
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "L_login_code"}
+INFO:root:獲取 [L_login_code] => 7784
+INFO:root:📌 測試 API : 204
+INFO:root:儲存 [L_TOKEN]:92bf6cc12b37d88f94cf94089bdbb561ec3ebe807d5362b981ed2344a63c2c54|2|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "L_TOKEN"}
+INFO:root:獲取 [L_TOKEN] => 92bf6cc12b37d88f94cf94089bdbb561ec3ebe807d5362b981ed2344a63c2c54|2|staging
+INFO:root:📌 測試 API : 303
+INFO:root:儲存 [labor_profile_image]:https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/labor-profile-images/ae/ae358d78df440d7b48fc49d518d03c9c.png
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "L_TOKEN"}
+INFO:root:獲取 [L_TOKEN] => 92bf6cc12b37d88f94cf94089bdbb561ec3ebe807d5362b981ed2344a63c2c54|2|staging
+INFO:root:📌 測試 API : 303
+INFO:root:儲存 [labor_id_card_image]:https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/labor-id-card-images/57/57745a1534a4a015559676915543c237.png
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "L_TOKEN"}
+INFO:root:獲取 [L_TOKEN] => 92bf6cc12b37d88f94cf94089bdbb561ec3ebe807d5362b981ed2344a63c2c54|2|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "labor_profile_image"}
+INFO:root:獲取 [labor_profile_image] => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/labor-profile-images/ae/ae358d78df440d7b48fc49d518d03c9c.png
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "labor_id_card_image"}
+INFO:root:獲取 [labor_id_card_image] => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/labor-id-card-images/57/57745a1534a4a015559676915543c237.png
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "labor_id_card_image"}
+INFO:root:獲取 [labor_id_card_image] => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/labor-id-card-images/57/57745a1534a4a015559676915543c237.png
+INFO:root:📌 測試 API : 205-1
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "L_TOKEN"}
+INFO:root:獲取 [L_TOKEN] => 92bf6cc12b37d88f94cf94089bdbb561ec3ebe807d5362b981ed2344a63c2c54|2|staging
+INFO:root:📌 測試 API : 205-2
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Driver [C:\Users\brandon.lee\.wdm\drivers\edgedriver\win64\135.0.3179.73\msedgedriver.exe] found in cache
+INFO:root:打工夥伴審核
+INFO:root:定位: 
+INFO:root:輸入: brandon.lee
+INFO:root:定位: 
+INFO:root:輸入: brandon7068l7
+INFO:root:定位: 登入
+INFO:root:點擊: 登入
+INFO:root:定位: home
+INFO:root:點擊: home
+INFO:root:定位: menu 層級
+INFO:root:點擊: menu 層級
+INFO:root:定位: 打工夥伴管理
+ERROR:root:[301] 無法定位元素的 Xpath: //p[text()='打工夥伴管理'] 
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Driver [C:\Users\brandon.lee\.wdm\drivers\edgedriver\win64\135.0.3179.73\msedgedriver.exe] found in cache
+INFO:root:打工夥伴審核
+INFO:root:定位: 
+INFO:root:輸入: brandon.lee
+INFO:root:定位: 
+INFO:root:輸入: brandon7068l7
+INFO:root:定位: 登入
+INFO:root:點擊: 登入
+INFO:root:定位: home
+INFO:root:點擊: home
+INFO:root:定位: menu 層級
+INFO:root:點擊: menu 層級
+INFO:root:定位: 打工夥伴管理
+ERROR:root:[301] 無法定位元素的 Xpath: //p[text()='打工夥伴管理'] 
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Driver [C:\Users\brandon.lee\.wdm\drivers\edgedriver\win64\135.0.3179.73\msedgedriver.exe] found in cache
+INFO:root:打工夥伴審核
+INFO:root:定位: 
+INFO:root:輸入: brandon.lee
+INFO:root:定位: 
+INFO:root:輸入: brandon7068l7
+INFO:root:定位: 登入
+INFO:root:點擊: 登入
+INFO:root:定位: home
+INFO:root:點擊: home
+INFO:root:定位: 打工夥伴
+ERROR:root:[301] 無法定位元素的 Xpath: //a[contains(text(),'打工夥伴')]/following-sibling::i 
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Driver [C:\Users\brandon.lee\.wdm\drivers\edgedriver\win64\135.0.3179.73\msedgedriver.exe] found in cache
+INFO:root:打工夥伴審核
+INFO:root:定位: 
+INFO:root:輸入: brandon.lee
+INFO:root:定位: 
+INFO:root:輸入: brandon7068l7
+INFO:root:定位: 登入
+INFO:root:點擊: 登入
+INFO:root:定位: home
+INFO:root:點擊: home
+INFO:root:定位: 打工夥伴
+ERROR:root:[301] 無法定位元素的 Xpath: //a[contains(text(),'打工夥伴')] 
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Driver [C:\Users\brandon.lee\.wdm\drivers\edgedriver\win64\135.0.3179.73\msedgedriver.exe] found in cache
+INFO:root:打工夥伴審核
+INFO:root:定位: 
+INFO:root:輸入: brandon.lee
+INFO:root:定位: 
+INFO:root:輸入: brandon7068l7
+INFO:root:定位: 登入
+INFO:root:點擊: 登入
+INFO:root:定位: home
+INFO:root:點擊: home
+INFO:root:定位: 打工夥伴
+INFO:root:點擊: 打工夥伴
+INFO:root:定位: 打工夥伴管理
+ERROR:root:[301] 無法定位元素的 Xpath: //p[text()='打工夥伴管理'] 
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Driver [C:\Users\brandon.lee\.wdm\drivers\edgedriver\win64\135.0.3179.73\msedgedriver.exe] found in cache
+INFO:root:打工夥伴審核
+INFO:root:定位: 
+INFO:root:輸入: brandon.lee
+INFO:root:定位: 
+INFO:root:輸入: brandon7068l7
+INFO:root:定位: 登入
+INFO:root:點擊: 登入
+INFO:root:定位: home
+INFO:root:點擊: home
+INFO:root:定位: 打工夥伴
+INFO:root:點擊: 打工夥伴
+INFO:root:定位: 打工夥伴管理
+INFO:root:點擊: 打工夥伴管理
+INFO:root:定位: 
+INFO:root:輸入: 904140000
+INFO:root:定位: 查詢
+INFO:root:點擊: 查詢
+INFO:root:定位: 審核
+ERROR:root:[301] 無法定位元素的 ID: //span[normalize-space()='待認證'] 
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Driver [C:\Users\brandon.lee\.wdm\drivers\edgedriver\win64\135.0.3179.73\msedgedriver.exe] found in cache
+INFO:root:打工夥伴審核
+INFO:root:定位: 
+INFO:root:輸入: brandon.lee
+INFO:root:定位: 
+INFO:root:輸入: brandon7068l7
+INFO:root:定位: 登入
+INFO:root:點擊: 登入
+INFO:root:定位: home
+INFO:root:點擊: home
+INFO:root:定位: 打工夥伴
+INFO:root:點擊: 打工夥伴
+INFO:root:定位: 打工夥伴管理
+INFO:root:點擊: 打工夥伴管理
+INFO:root:定位: 
+INFO:root:輸入: 904140000
+INFO:root:定位: 查詢
+INFO:root:點擊: 查詢
+INFO:root:定位: 審核
+ERROR:root:[301] 無法定位元素的 ID: //span[normalize-space(text())='待認證'] 
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Driver [C:\Users\brandon.lee\.wdm\drivers\edgedriver\win64\135.0.3179.73\msedgedriver.exe] found in cache
+INFO:root:打工夥伴審核
+INFO:root:定位: 
+INFO:root:輸入: brandon.lee
+INFO:root:定位: 
+INFO:root:輸入: brandon7068l7
+INFO:root:定位: 登入
+INFO:root:點擊: 登入
+INFO:root:定位: home
+INFO:root:點擊: home
+INFO:root:定位: 打工夥伴
+INFO:root:點擊: 打工夥伴
+INFO:root:定位: 打工夥伴管理
+INFO:root:點擊: 打工夥伴管理
+INFO:root:定位: 
+INFO:root:輸入: 904140000
+INFO:root:定位: 查詢
+INFO:root:點擊: 查詢
+INFO:root:定位: 審核
+INFO:root:點擊: 審核
+INFO:root:定位: 提交認證
+ERROR:root:[301] 無法定位元素的 Xpath: btnValidateSubmit 
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Driver [C:\Users\brandon.lee\.wdm\drivers\edgedriver\win64\135.0.3179.73\msedgedriver.exe] found in cache
+INFO:root:打工夥伴審核
+INFO:root:定位: 
+INFO:root:輸入: brandon.lee
+INFO:root:定位: 
+INFO:root:輸入: brandon7068l7
+INFO:root:定位: 登入
+INFO:root:點擊: 登入
+INFO:root:定位: home
+INFO:root:點擊: home
+INFO:root:定位: 打工夥伴
+INFO:root:點擊: 打工夥伴
+INFO:root:定位: 打工夥伴管理
+INFO:root:點擊: 打工夥伴管理
+INFO:root:定位: 
+INFO:root:輸入: 904140000
+INFO:root:定位: 查詢
+INFO:root:點擊: 查詢
+INFO:root:定位: 審核
+INFO:root:點擊: 審核
+INFO:root:定位: 提交認證
+INFO:root:點擊: 提交認證
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Driver [C:\Users\brandon.lee\.wdm\drivers\edgedriver\win64\135.0.3179.73\msedgedriver.exe] found in cache
+INFO:root:打工夥伴審核
+INFO:root:定位: 
+INFO:root:輸入: brandon.lee
+INFO:root:定位: 
+INFO:root:輸入: brandon7068l7
+INFO:root:定位: 登入
+INFO:root:點擊: 登入
+INFO:root:定位: home
+INFO:root:點擊: home
+INFO:root:定位: 打工夥伴
+INFO:root:點擊: 打工夥伴
+INFO:root:定位: 打工夥伴管理
+INFO:root:點擊: 打工夥伴管理
+INFO:root:定位: 
+INFO:root:輸入: 904140001
+INFO:root:定位: 查詢
+INFO:root:點擊: 查詢
+INFO:root:定位: 審核
+INFO:root:點擊: 審核
+INFO:root:定位: 提交認證
+INFO:root:點擊: 提交認證
+INFO:root:📌 測試 API : 103
+INFO:root:儲存 [E_login_code]:1501
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_login_code"}
+INFO:root:獲取 [E_login_code] => 1501
+INFO:root:📌 測試 API : 104
+INFO:root:儲存 [E_TOKEN]:4f5091db01752671fef5575c5694990d42ceaf704421cc88ea658769e8d0e356|1|staging
+INFO:root:📌 測試 API : 203
+INFO:root:儲存 [L_login_code]:8216
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "L_login_code"}
+INFO:root:獲取 [L_login_code] => 8216
+INFO:root:📌 測試 API : 204
+INFO:root:儲存 [L_TOKEN]:c96c24201bcdde6241d9e2051ddb413baffa73421c6520b8011922f137afd59d|2|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:獲取 [E_TOKEN] => 4f5091db01752671fef5575c5694990d42ceaf704421cc88ea658769e8d0e356|1|staging
+INFO:root:📌 測試 API : 115-2
+INFO:root:📌 測試 API : 103
+INFO:root:儲存 [E_login_code]:0059
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_login_code"}
+INFO:root:獲取 [E_login_code] => 0059
+INFO:root:📌 測試 API : 104
+INFO:root:儲存 [E_TOKEN]:1cf3590919ce159f6c6bbc56811377e3918203b6c991066ad649adaa9be8c14c|1|staging
+INFO:root:📌 測試 API : 203
+INFO:root:儲存 [L_login_code]:5497
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "L_login_code"}
+INFO:root:獲取 [L_login_code] => 5497
+INFO:root:📌 測試 API : 204
+INFO:root:儲存 [L_TOKEN]:6e543344ef2e9718a64abbdf659bc042e1f872ffcb317ea5b9bc8b093a669d01|2|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:獲取 [E_TOKEN] => 1cf3590919ce159f6c6bbc56811377e3918203b6c991066ad649adaa9be8c14c|1|staging
+INFO:root:📌 測試 API : 115-2
+INFO:root:📌 測試 API : 103
+INFO:root:儲存 [E_login_code]:4653
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_login_code"}
+INFO:root:獲取 [E_login_code] => 4653
+INFO:root:📌 測試 API : 104
+INFO:root:儲存 [E_TOKEN]:ecf7c216325c5f3e15bfe26359d3c20c8e59bee346d1fec0c4b6bae8e91ebbbe|1|staging
+INFO:root:📌 測試 API : 203
+INFO:root:儲存 [L_login_code]:6944
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "L_login_code"}
+INFO:root:獲取 [L_login_code] => 6944
+INFO:root:📌 測試 API : 204
+INFO:root:儲存 [L_TOKEN]:b8801b8d34f9b28201bc5f7c2c9e991ebbd4a320276fa591d22c4f3e23770a11|2|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:獲取 [E_TOKEN] => ecf7c216325c5f3e15bfe26359d3c20c8e59bee346d1fec0c4b6bae8e91ebbbe|1|staging
+INFO:root:📌 測試 API : 115-2
+INFO:root:儲存 [JOB_start_code]:5391
+INFO:root:儲存 [JOB_end_code]:1947
+INFO:root:儲存 [L_labor_id]:988
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:獲取 [E_TOKEN] => ecf7c216325c5f3e15bfe26359d3c20c8e59bee346d1fec0c4b6bae8e91ebbbe|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "JOB_SN"}
+INFO:root:獲取 [JOB_SN] => 17446119930001
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "L_labor_id"}
+INFO:root:獲取 [L_labor_id] => 988
+INFO:root:📌 測試 API : 122
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "L_TOKEN"}
+INFO:root:獲取 [L_TOKEN] => b8801b8d34f9b28201bc5f7c2c9e991ebbd4a320276fa591d22c4f3e23770a11|2|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "JOB_SN"}
+INFO:root:獲取 [JOB_SN] => 17446119930001
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "JOB_start_code"}
+INFO:root:獲取 [JOB_start_code] => 5391
+INFO:root:📌 測試 API : 213
+INFO:root:📌 測試 API : 103
+INFO:root:儲存 [E_login_code]:8707
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_login_code"}
+INFO:root:獲取 [E_login_code] => 8707
+INFO:root:📌 測試 API : 104
+INFO:root:儲存 [E_TOKEN]:364c252975c89bca3a6683e9bcd949580c3d312dbcd500e4c2d1f2de09304089|1|staging
+INFO:root:📌 測試 API : 203
+INFO:root:儲存 [L_login_code]:0751
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "L_login_code"}
+INFO:root:獲取 [L_login_code] => 0751
+INFO:root:📌 測試 API : 204
+INFO:root:儲存 [L_TOKEN]:8d92b44f3114a4a49587cf196652cc05ff835fbfabd6209363be57bf9f936892|2|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:獲取 [E_TOKEN] => 364c252975c89bca3a6683e9bcd949580c3d312dbcd500e4c2d1f2de09304089|1|staging
+INFO:root:📌 測試 API : 115-2
+INFO:root:儲存 [JOB_start_code]:5391
+INFO:root:儲存 [JOB_end_code]:1947
+INFO:root:儲存 [L_labor_id]:988
+INFO:root:📌 測試 API : 103
+INFO:root:儲存 [E_login_code]:8982
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_login_code"}
+INFO:root:獲取 [E_login_code] => 8982
+INFO:root:📌 測試 API : 104
+INFO:root:儲存 [E_TOKEN]:946ad7d0b740dc9bf737c5b01cabdb405e29c257c669d178ea842f2566573fbf|1|staging
+INFO:root:📌 測試 API : 203
+INFO:root:儲存 [L_login_code]:9085
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "L_login_code"}
+INFO:root:獲取 [L_login_code] => 9085
+INFO:root:📌 測試 API : 204
+INFO:root:儲存 [L_TOKEN]:3f461ebbec49e146b032c66f780eb94d3ad2172901a29c193532da85276b268a|2|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:獲取 [E_TOKEN] => 946ad7d0b740dc9bf737c5b01cabdb405e29c257c669d178ea842f2566573fbf|1|staging
+INFO:root:📌 測試 API : 115-2
+INFO:root:儲存 [JOB_start_code]:5391
+INFO:root:儲存 [JOB_end_code]:1947
+INFO:root:儲存 [L_labor_id]:988
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:獲取 [E_TOKEN] => 946ad7d0b740dc9bf737c5b01cabdb405e29c257c669d178ea842f2566573fbf|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "L_labor_id"}
+INFO:root:獲取 [L_labor_id] => 988
+INFO:root:📌 測試 API : 122
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "L_TOKEN"}
+INFO:root:獲取 [L_TOKEN] => 3f461ebbec49e146b032c66f780eb94d3ad2172901a29c193532da85276b268a|2|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "JOB_start_code"}
+INFO:root:獲取 [JOB_start_code] => 5391
+INFO:root:📌 測試 API : 213
+INFO:root:✅ 第 1 次測試 ---
+INFO:root:E_PHONE: {904140008}
+INFO:root:📌 測試 API : 101
+ERROR:root:無法連接到伺服器 localhost:4000: [WinError 10061] 無法連線，因為目標電腦拒絕連線。
+INFO:root:✅ 第 1 次測試 ---
+INFO:root:E_PHONE: {904140008}
+INFO:root:📌 測試 API : 101
+INFO:root:儲存 [E_register_code]:None
+INFO:root:[SET] : E_register_code => None
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_register_code"}
+INFO:root:[GET] : E_register_code
+INFO:root:獲取 [E_register_code] => None
+INFO:root:📌 測試 API : 102
+INFO:root:✅ 第 1 次測試 ---
+INFO:root:E_PHONE: {904140008}
+INFO:root:📌 測試 API : 101
+INFO:root:儲存 [E_register_code]:None
+INFO:root:[SET] : E_register_code => None
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_register_code"}
+INFO:root:[GET] : E_register_code
+INFO:root:獲取 [E_register_code] => None
+INFO:root:📌 測試 API : 102
+INFO:root:✅ 第 1 次測試 ---
+INFO:root:E_PHONE: {904140008}
+INFO:root:📌 測試 API : 101
+INFO:root:儲存 [E_register_code]:None
+INFO:root:[SET] : E_register_code => None
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_register_code"}
+INFO:root:[GET] : E_register_code
+INFO:root:獲取 [E_register_code] => None
+INFO:root:📌 測試 API : 102
+INFO:root:✅ 第 1 次測試 ---
+INFO:root:E_PHONE: {904140009}
+INFO:root:📌 測試 API : 101
+INFO:root:儲存 [E_register_code]:6208
+INFO:root:[SET] : E_register_code => 6208
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_register_code"}
+INFO:root:[GET] : E_register_code
+INFO:root:獲取 [E_register_code] => 6208
+INFO:root:📌 測試 API : 102
+INFO:root:儲存 [E_TOKEN]:c0c26d568cbd3e876e32a307671a8c8a753b85a4ddd339564a5a11e263bb26a2|1|staging
+INFO:root:[SET] : E_TOKEN => c0c26d568cbd3e876e32a307671a8c8a753b85a4ddd339564a5a11e263bb26a2|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => c0c26d568cbd3e876e32a307671a8c8a753b85a4ddd339564a5a11e263bb26a2|1|staging
+INFO:root:📌 測試 API : 303
+INFO:root:[SET] : shop_company_logo_image => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/shop-company-logo-images/6a/6af0f99b325e2ad683aee50462074ab1.png
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => c0c26d568cbd3e876e32a307671a8c8a753b85a4ddd339564a5a11e263bb26a2|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "shop_company_logo_image"}
+INFO:root:[GET] : shop_company_logo_image
+INFO:root:獲取 [shop_company_logo_image] => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/shop-company-logo-images/6a/6af0f99b325e2ad683aee50462074ab1.png
+INFO:root:📌 測試 API : 105-1
+INFO:root:儲存 [E_shop_id]:1427
+INFO:root:[SET] : E_shop_id => 1427
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => c0c26d568cbd3e876e32a307671a8c8a753b85a4ddd339564a5a11e263bb26a2|1|staging
+INFO:root:📌 測試 API : 303
+INFO:root:儲存 [shop_verify_image]:https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/shop-verify-images/0b/0b91b48d5beb1db9d4c67006ebd139a3.png
+INFO:root:[SET] : shop_verify_image => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/shop-verify-images/0b/0b91b48d5beb1db9d4c67006ebd139a3.png
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => c0c26d568cbd3e876e32a307671a8c8a753b85a4ddd339564a5a11e263bb26a2|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_shop_id"}
+INFO:root:[GET] : E_shop_id
+INFO:root:獲取 [E_shop_id] => 1427
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "shop_verify_image"}
+INFO:root:[GET] : shop_verify_image
+INFO:root:獲取 [shop_verify_image] => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/shop-verify-images/0b/0b91b48d5beb1db9d4c67006ebd139a3.png
+INFO:root:📌 測試 API : 105-3
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Driver [C:\Users\brandon.lee\.wdm\drivers\edgedriver\win64\135.0.3179.73\msedgedriver.exe] found in cache
+INFO:root:測試 商家審核
+INFO:root:[pages/other/shop_approve_headless.py]
+INFO:root:定位: 
+INFO:root:輸入: brandon.lee
+INFO:root:定位: 
+INFO:root:輸入: brandon7068l7
+INFO:root:定位: 登入
+INFO:root:點擊: 登入
+INFO:root:定位: home
+INFO:root:點擊: home
+INFO:root:定位: 商家管理
+INFO:root:點擊: 商家管理
+INFO:root:定位: 店鋪管理
+INFO:root:點擊: 店鋪管理
+INFO:root:定位: 
+INFO:root:輸入: 904140009
+INFO:root:定位: 查詢
+INFO:root:點擊: 查詢
+INFO:root:定位: 審核
+INFO:root:點擊: 審核
+INFO:root:定位: 通過
+INFO:root:點擊: 通過
+INFO:root:定位: 確定
+INFO:root:點擊: 確定
+INFO:root:✅ 第 1 次測試 ---
+INFO:root:E_PHONE: {904140010}
+INFO:root:📌 測試 API : 101
+INFO:root:儲存 [E_register_code]:8188
+INFO:root:[SET] : E_register_code => 8188
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_register_code"}
+INFO:root:[GET] : E_register_code
+INFO:root:獲取 [E_register_code] => 8188
+INFO:root:📌 測試 API : 102
+INFO:root:儲存 [E_TOKEN]:7792deb76f13cd638dbcbf23e761b60af1f228a75ab283a2cef64fdf2b4318dc|1|staging
+
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 7792deb76f13cd638dbcbf23e761b60af1f228a75ab283a2cef64fdf2b4318dc|1|staging
+INFO:root:📌 測試 API : 303
+INFO:root:[SET] : shop_company_logo_image => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/shop-company-logo-images/3c/3ce2b65019dd1e9e1b26b812a6798596.png
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 7792deb76f13cd638dbcbf23e761b60af1f228a75ab283a2cef64fdf2b4318dc|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "shop_company_logo_image"}
+INFO:root:[GET] : shop_company_logo_image
+INFO:root:獲取 [shop_company_logo_image] => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/shop-company-logo-images/3c/3ce2b65019dd1e9e1b26b812a6798596.png
+INFO:root:📌 測試 API : 105-1
+INFO:root:儲存 [E_shop_id]:1428
+INFO:root:[SET] : E_shop_id => 1428
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 7792deb76f13cd638dbcbf23e761b60af1f228a75ab283a2cef64fdf2b4318dc|1|staging
+INFO:root:📌 測試 API : 303
+INFO:root:[SET] : shop_verify_image => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/shop-verify-images/35/359ddd7cf20aa42776278505231a74d4.png
+INFO:root:儲存 [shop_verify_image]:https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/shop-verify-images/35/359ddd7cf20aa42776278505231a74d4.png
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 7792deb76f13cd638dbcbf23e761b60af1f228a75ab283a2cef64fdf2b4318dc|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_shop_id"}
+INFO:root:[GET] : E_shop_id
+INFO:root:獲取 [E_shop_id] => 1428
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "shop_verify_image"}
+INFO:root:[GET] : shop_verify_image
+INFO:root:獲取 [shop_verify_image] => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/shop-verify-images/35/359ddd7cf20aa42776278505231a74d4.png
+INFO:root:📌 測試 API : 105-3
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Driver [C:\Users\brandon.lee\.wdm\drivers\edgedriver\win64\135.0.3179.73\msedgedriver.exe] found in cache
+INFO:root:測試 商家審核
+INFO:root:[pages/other/shop_approve_headless.py]
+INFO:root:定位: 
+INFO:root:輸入: brandon.lee
+INFO:root:定位: 
+INFO:root:輸入: brandon7068l7
+INFO:root:定位: 登入
+INFO:root:點擊: 登入
+INFO:root:定位: home
+INFO:root:點擊: home
+INFO:root:定位: 商家管理
+INFO:root:點擊: 商家管理
+INFO:root:定位: 店鋪管理
+INFO:root:點擊: 店鋪管理
+INFO:root:定位: 
+INFO:root:輸入: 904140010
+INFO:root:定位: 查詢
+INFO:root:點擊: 查詢
+INFO:root:定位: 審核
+INFO:root:點擊: 審核
+INFO:root:定位: 通過
+INFO:root:點擊: 通過
+INFO:root:定位: 確定
+INFO:root:點擊: 確定
+INFO:root:✅ 第 2 次測試 ---
+INFO:root:E_PHONE: {904140011}
+INFO:root:📌 測試 API : 101
+INFO:root:儲存 [E_register_code]:6909
+INFO:root:[SET] : E_register_code => 6909
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_register_code"}
+INFO:root:[GET] : E_register_code
+INFO:root:獲取 [E_register_code] => 6909
+INFO:root:📌 測試 API : 102
+INFO:root:儲存 [E_TOKEN]:718b6299ebf27047908499748e6e9ee7ccbd97e3375e04882289b9f95fd96a55|1|staging
+INFO:root:[SET] : E_TOKEN => 718b6299ebf27047908499748e6e9ee7ccbd97e3375e04882289b9f95fd96a55|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 718b6299ebf27047908499748e6e9ee7ccbd97e3375e04882289b9f95fd96a55|1|staging
+INFO:root:📌 測試 API : 303
+INFO:root:儲存 [shop_company_logo_image]:https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/shop-company-logo-images/79/790fae772005dd487a32e329e812b369.png
+INFO:root:[SET] : shop_company_logo_image => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/shop-company-logo-images/79/790fae772005dd487a32e329e812b369.png
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 718b6299ebf27047908499748e6e9ee7ccbd97e3375e04882289b9f95fd96a55|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "shop_company_logo_image"}
+INFO:root:[GET] : shop_company_logo_image
+INFO:root:獲取 [shop_company_logo_image] => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/shop-company-logo-images/79/790fae772005dd487a32e329e812b369.png
+INFO:root:📌 測試 API : 105-1
+INFO:root:儲存 [E_shop_id]:1429
+INFO:root:[SET] : E_shop_id => 1429
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 718b6299ebf27047908499748e6e9ee7ccbd97e3375e04882289b9f95fd96a55|1|staging
+INFO:root:📌 測試 API : 303
+INFO:root:儲存 [shop_verify_image]:https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/shop-verify-images/7e/7e6bed2178283367fb73e04be5bec43e.png
+INFO:root:[SET] : shop_verify_image => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/shop-verify-images/7e/7e6bed2178283367fb73e04be5bec43e.png
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 718b6299ebf27047908499748e6e9ee7ccbd97e3375e04882289b9f95fd96a55|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_shop_id"}
+INFO:root:[GET] : E_shop_id
+INFO:root:獲取 [E_shop_id] => 1429
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "shop_verify_image"}
+INFO:root:[GET] : shop_verify_image
+INFO:root:獲取 [shop_verify_image] => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/shop-verify-images/7e/7e6bed2178283367fb73e04be5bec43e.png
+INFO:root:📌 測試 API : 105-3
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Driver [C:\Users\brandon.lee\.wdm\drivers\edgedriver\win64\135.0.3179.73\msedgedriver.exe] found in cache
+INFO:root:測試 商家審核
+INFO:root:[pages/other/shop_approve_headless.py]
+INFO:root:定位: 
+INFO:root:輸入: brandon.lee
+INFO:root:定位: 
+INFO:root:輸入: brandon7068l7
+INFO:root:定位: 登入
+INFO:root:點擊: 登入
+INFO:root:定位: home
+INFO:root:點擊: home
+INFO:root:定位: 商家管理
+INFO:root:點擊: 商家管理
+INFO:root:定位: 店鋪管理
+INFO:root:點擊: 店鋪管理
+INFO:root:定位: 
+INFO:root:輸入: 904140011
+INFO:root:定位: 查詢
+INFO:root:點擊: 查詢
+INFO:root:定位: 審核
+INFO:root:點擊: 審核
+INFO:root:定位: 通過
+INFO:root:點擊: 通過
+INFO:root:定位: 確定
+INFO:root:點擊: 確定
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, '遠端主機已強制關閉一個現存的連線。', None, 10054, None)': /session/5d758aeee8eff59994f39fa37a64a70f
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021F08336190>: Failed to establish a new connection: [WinError 10061] 無法連線，因為目標電腦拒絕連線。')': /session/5d758aeee8eff59994f39fa37a64a70f
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021F06843810>: Failed to establish a new connection: [WinError 10061] 無法連線，因為目標電腦拒絕連線。')': /session/5d758aeee8eff59994f39fa37a64a70f
+INFO:root:✅ 第 3 次測試 ---
+INFO:root:E_PHONE: {904140012}
+INFO:root:📌 測試 API : 101
+INFO:root:[SET] : E_register_code => 1719
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_register_code"}
+INFO:root:[GET] : E_register_code
+INFO:root:獲取 [E_register_code] => 1719
+INFO:root:📌 測試 API : 102
+INFO:root:儲存 [E_TOKEN]:caab64dfae827084e77450fde3271ae2f98d6d47b87977d8f5b58a386a9468ad|1|staging
+INFO:root:[SET] : E_TOKEN => caab64dfae827084e77450fde3271ae2f98d6d47b87977d8f5b58a386a9468ad|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => caab64dfae827084e77450fde3271ae2f98d6d47b87977d8f5b58a386a9468ad|1|staging
+INFO:root:📌 測試 API : 303
+INFO:root:儲存 [shop_company_logo_image]:https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/shop-company-logo-images/48/4872f2289d74bc619f89806715a071e5.png
+INFO:root:[SET] : shop_company_logo_image => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/shop-company-logo-images/48/4872f2289d74bc619f89806715a071e5.png
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => caab64dfae827084e77450fde3271ae2f98d6d47b87977d8f5b58a386a9468ad|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "shop_company_logo_image"}
+INFO:root:[GET] : shop_company_logo_image
+INFO:root:獲取 [shop_company_logo_image] => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/shop-company-logo-images/48/4872f2289d74bc619f89806715a071e5.png
+INFO:root:📌 測試 API : 105-1
+INFO:root:儲存 [E_shop_id]:1430
+INFO:root:[SET] : E_shop_id => 1430
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => caab64dfae827084e77450fde3271ae2f98d6d47b87977d8f5b58a386a9468ad|1|staging
+INFO:root:📌 測試 API : 303
+INFO:root:儲存 [shop_verify_image]:https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/shop-verify-images/79/799938eaf3ae90d2b5e80692dca494c7.png
+
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => caab64dfae827084e77450fde3271ae2f98d6d47b87977d8f5b58a386a9468ad|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_shop_id"}
+INFO:root:[GET] : E_shop_id
+INFO:root:獲取 [E_shop_id] => 1430
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "shop_verify_image"}
+INFO:root:[GET] : shop_verify_image
+INFO:root:獲取 [shop_verify_image] => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/shop-verify-images/79/799938eaf3ae90d2b5e80692dca494c7.png
+INFO:root:📌 測試 API : 105-3
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:About to download new driver from https://msedgedriver.azureedge.net/135.0.3179.73/edgedriver_win64.zip
+INFO:WDM:Driver downloading response is 200
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Driver has been saved in cache [C:\Users\brandon.lee\.wdm\drivers\edgedriver\win64\135.0.3179.73]
+INFO:root:✅ 第 1 次測試 ---
+INFO:root:E_PHONE: {2}
+INFO:root:📌 測試 API : 103
+INFO:root:✅ 第 1 次測試 ---
+INFO:root:E_PHONE: {1}
+INFO:root:📌 測試 API : 103
+INFO:root:✅ 第 1 次測試 ---
+INFO:root:E_PHONE: {904140004}
+INFO:root:📌 測試 API : 103
+INFO:root:儲存 [E_login_code]:3621
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_login_code"}
+INFO:root:獲取 [E_login_code] => 3621
+INFO:root:📌 測試 API : 104
+INFO:root:儲存 [E_TOKEN]:8a6dc1811b5592f9cbc0002c380d8a49c4d19463355aebfb1ba8c1b4310e1de0|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:獲取 [E_TOKEN] => 8a6dc1811b5592f9cbc0002c380d8a49c4d19463355aebfb1ba8c1b4310e1de0|1|staging
+INFO:root:📌 測試 API : 161
+INFO:root:儲存 [E_credit_card_url]:https://payment-stage.funpoint.com.tw/MerchantMember/TradeWithBindingCardID?MerchantID=1000060&MerchantMemberID=1000060E0000001560S&ServerReplyURL=https%3A%2F%2Fnext-staging-v210x.pay.staging.worky.com.tw%2Ffun-point%2Fbind-credit-card-notify&ClientRedirectURL=https%3A%2F%2Fnext-staging-v210x.pay.staging.worky.com.tw%2Ffun-point%2Fbind-credit-card-callback&MerchantTradeNo=WB250414180000004S&MerchantTradeDate=2025%2F04%2F14+18%3A19%3A30&TotalAmount=6&TradeDesc=%25E7%25B6%2581%25E5%25AE%259A%25E4%25BF%25A1%25E7%2594%25A8%25E5%258D%25A1&stage=0&CheckMacValue=8A9DE2D281D8756C3FAE4D8D2C03015CCB09C50C1A7946B1EF9C35BF6BCD0482
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_credit_card_url"}
+INFO:root:獲取 [E_credit_card_url] => https://payment-stage.funpoint.com.tw/MerchantMember/TradeWithBindingCardID?MerchantID=1000060&MerchantMemberID=1000060E0000001560S&ServerReplyURL=https%3A%2F%2Fnext-staging-v210x.pay.staging.worky.com.tw%2Ffun-point%2Fbind-credit-card-notify&ClientRedirectURL=https%3A%2F%2Fnext-staging-v210x.pay.staging.worky.com.tw%2Ffun-point%2Fbind-credit-card-callback&MerchantTradeNo=WB250414180000004S&MerchantTradeDate=2025%2F04%2F14+18%3A19%3A30&TotalAmount=6&TradeDesc=%25E7%25B6%2581%25E5%25AE%259A%25E4%25BF%25A1%25E7%2594%25A8%25E5%258D%25A1&stage=0&CheckMacValue=8A9DE2D281D8756C3FAE4D8D2C03015CCB09C50C1A7946B1EF9C35BF6BCD0482
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Driver [C:\Users\brandon.lee\.wdm\drivers\edgedriver\win64\135.0.3179.73\msedgedriver.exe] found in cache
+INFO:root:測試 信用卡設定
+INFO:root:[pages/other/credit_card_headless.py]
+INFO:root:定位: 
+INFO:root:輸入: 4311958888888888
+INFO:root:定位: 月份
+INFO:root:點擊: 月份
+INFO:root:定位: 10月
+INFO:root:點擊: 10月
+INFO:root:定位: 年份
+INFO:root:點擊: 年份
+INFO:root:定位: 2031年
+INFO:root:點擊: 2031年
+INFO:root:定位: 
+INFO:root:輸入: 222
+INFO:root:定位: 送出
+INFO:root:點擊: 送出
+INFO:root:定位: 送出
+INFO:root:點擊: 送出
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:獲取 [E_TOKEN] => 8a6dc1811b5592f9cbc0002c380d8a49c4d19463355aebfb1ba8c1b4310e1de0|1|staging
+INFO:root:📌 測試 API : 171
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:獲取 [E_TOKEN] => 8a6dc1811b5592f9cbc0002c380d8a49c4d19463355aebfb1ba8c1b4310e1de0|1|staging
+INFO:root:📌 測試 API : 173
+INFO:root:✅ 第 1 次測試 ---
+INFO:root:E_PHONE: {904140004}
+INFO:root:📌 測試 API : 103
+INFO:root:儲存 [E_login_code]:9604
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_login_code"}
+INFO:root:獲取 [E_login_code] => 9604
+INFO:root:📌 測試 API : 104
+INFO:root:儲存 [E_TOKEN]:190f9a354c7f7051ea828ffeb5e0f031bde183fe4d910d2d441ee26477285faf|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:獲取 [E_TOKEN] => 190f9a354c7f7051ea828ffeb5e0f031bde183fe4d910d2d441ee26477285faf|1|staging
+INFO:root:📌 測試 API : 161
+INFO:root:儲存 [E_credit_card_url]:https://payment-stage.funpoint.com.tw/MerchantMember/TradeWithBindingCardID?MerchantID=1000060&MerchantMemberID=1000060E0000001560S&ServerReplyURL=https%3A%2F%2Fnext-staging-v210x.pay.staging.worky.com.tw%2Ffun-point%2Fbind-credit-card-notify&ClientRedirectURL=https%3A%2F%2Fnext-staging-v210x.pay.staging.worky.com.tw%2Ffun-point%2Fbind-credit-card-callback&MerchantTradeNo=WB250414180000005S&MerchantTradeDate=2025%2F04%2F14+18%3A20%3A38&TotalAmount=6&TradeDesc=%25E7%25B6%2581%25E5%25AE%259A%25E4%25BF%25A1%25E7%2594%25A8%25E5%258D%25A1&stage=0&CheckMacValue=A578CE4B039DDEDB05961AAFBB98DC21C487897F5E67233FDECEAE9CFE91DC1D
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_credit_card_url"}
+INFO:root:獲取 [E_credit_card_url] => https://payment-stage.funpoint.com.tw/MerchantMember/TradeWithBindingCardID?MerchantID=1000060&MerchantMemberID=1000060E0000001560S&ServerReplyURL=https%3A%2F%2Fnext-staging-v210x.pay.staging.worky.com.tw%2Ffun-point%2Fbind-credit-card-notify&ClientRedirectURL=https%3A%2F%2Fnext-staging-v210x.pay.staging.worky.com.tw%2Ffun-point%2Fbind-credit-card-callback&MerchantTradeNo=WB250414180000005S&MerchantTradeDate=2025%2F04%2F14+18%3A20%3A38&TotalAmount=6&TradeDesc=%25E7%25B6%2581%25E5%25AE%259A%25E4%25BF%25A1%25E7%2594%25A8%25E5%258D%25A1&stage=0&CheckMacValue=A578CE4B039DDEDB05961AAFBB98DC21C487897F5E67233FDECEAE9CFE91DC1D
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Driver [C:\Users\brandon.lee\.wdm\drivers\edgedriver\win64\135.0.3179.73\msedgedriver.exe] found in cache
+INFO:root:測試 信用卡設定
+INFO:root:[pages/other/credit_card_headless.py]
+INFO:root:定位: 
+INFO:root:輸入: 4311957777777777
+INFO:root:定位: 月份
+INFO:root:點擊: 月份
+INFO:root:定位: 10月
+INFO:root:點擊: 10月
+INFO:root:定位: 年份
+INFO:root:點擊: 年份
+INFO:root:定位: 2031年
+INFO:root:點擊: 2031年
+INFO:root:定位: 
+INFO:root:輸入: 222
+INFO:root:定位: 送出
+INFO:root:點擊: 送出
+INFO:root:定位: 送出
+INFO:root:點擊: 送出
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:獲取 [E_TOKEN] => 190f9a354c7f7051ea828ffeb5e0f031bde183fe4d910d2d441ee26477285faf|1|staging
+INFO:root:📌 測試 API : 171
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:獲取 [E_TOKEN] => 190f9a354c7f7051ea828ffeb5e0f031bde183fe4d910d2d441ee26477285faf|1|staging
+INFO:root:📌 測試 API : 173
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_credit_card_url"}
+INFO:root:獲取 [E_credit_card_url] => https://payment-stage.funpoint.com.tw/MerchantMember/TradeWithBindingCardID?MerchantID=1000060&MerchantMemberID=1000060E0000001560S&ServerReplyURL=https%3A%2F%2Fnext-staging-v210x.pay.staging.worky.com.tw%2Ffun-point%2Fbind-credit-card-notify&ClientRedirectURL=https%3A%2F%2Fnext-staging-v210x.pay.staging.worky.com.tw%2Ffun-point%2Fbind-credit-card-callback&MerchantTradeNo=WB250414180000005S&MerchantTradeDate=2025%2F04%2F14+18%3A20%3A38&TotalAmount=6&TradeDesc=%25E7%25B6%2581%25E5%25AE%259A%25E4%25BF%25A1%25E7%2594%25A8%25E5%258D%25A1&stage=0&CheckMacValue=A578CE4B039DDEDB05961AAFBB98DC21C487897F5E67233FDECEAE9CFE91DC1D
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Driver [C:\Users\brandon.lee\.wdm\drivers\edgedriver\win64\135.0.3179.73\msedgedriver.exe] found in cache
+INFO:root:測試 信用卡設定
+INFO:root:[pages/other/credit_card_headless.py]
+INFO:root:定位: 
+ERROR:root:[301] 無法定位元素的 ID: CardPart1 
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Driver [C:\Users\brandon.lee\.wdm\drivers\edgedriver\win64\135.0.3179.73\msedgedriver.exe] found in cache
+INFO:root:測試 商家審核
+INFO:root:[pages/other/shop_approve_headless.py]
+INFO:root:定位: 
+INFO:root:輸入: brandon.lee
+INFO:root:定位: 
+INFO:root:輸入: brandon7068l7
+INFO:root:定位: 登入
+INFO:root:點擊: 登入
+INFO:root:定位: home
+INFO:root:點擊: home
+INFO:root:定位: 商家管理
+INFO:root:點擊: 商家管理
+INFO:root:定位: 店鋪管理
+INFO:root:點擊: 店鋪管理
+INFO:root:定位: 
+INFO:root:輸入: 904120001
+INFO:root:定位: 查詢
+INFO:root:點擊: 查詢
+INFO:root:定位: 審核
+INFO:root:點擊: 審核
+INFO:root:定位: 通過
+ERROR:root:[301] 無法定位元素的 Xpath: //button[@data-bs-target='#approveModal'] 
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Driver [C:\Users\brandon.lee\.wdm\drivers\edgedriver\win64\135.0.3179.73\msedgedriver.exe] found in cache
+INFO:root:測試 商家審核
+INFO:root:[pages/other/shop_approve_headless.py]
+INFO:root:定位: 
+INFO:root:輸入: brandon.lee
+INFO:root:定位: 
+INFO:root:輸入: brandon7068l7
+INFO:root:定位: 登入
+INFO:root:點擊: 登入
+INFO:root:定位: home
+INFO:root:點擊: home
+INFO:root:定位: 商家管理
+INFO:root:點擊: 商家管理
+INFO:root:定位: 店鋪管理
+INFO:root:點擊: 店鋪管理
+INFO:root:定位: 
+INFO:root:輸入: 904120001
+INFO:root:定位: 查詢
+INFO:root:點擊: 查詢
+INFO:root:定位: 審核
+INFO:root:點擊: 審核
+INFO:root:定位: 通過
+ERROR:root:[301] 無法定位元素的 Xpath: //button[@data-bs-target='#approveModal'] 
+INFO:root:✅ 第 1 次測試 ---
+INFO:root:E_PHONE: {886904140015}
+INFO:root:📌 測試 API : 101
+ERROR:root:無法連接到伺服器 localhost:4000: [WinError 10061] 無法連線，因為目標電腦拒絕連線。
+INFO:root:✅ 第 1 次測試 ---
+INFO:root:E_PHONE: {886904140015}
+INFO:root:📌 測試 API : 101
+INFO:root:儲存 [E_register_code]:4614
+INFO:root:[SET] : E_register_code => 4614
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_register_code"}
+INFO:root:[GET] : E_register_code
+INFO:root:獲取 [E_register_code] => 4614
+INFO:root:📌 測試 API : 102
+INFO:root:儲存 [E_TOKEN]:039b4ca925dbd8a7a5ae72a6798ed8b7f449a1b5defc4f7c297fa28c3dd9e646|1|staging
+INFO:root:[SET] : E_TOKEN => 039b4ca925dbd8a7a5ae72a6798ed8b7f449a1b5defc4f7c297fa28c3dd9e646|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 039b4ca925dbd8a7a5ae72a6798ed8b7f449a1b5defc4f7c297fa28c3dd9e646|1|staging
+INFO:root:📌 測試 API : 303
+INFO:root:儲存 [shop_company_logo_image]:https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/shop-company-logo-images/3c/3c312b39613c2da1ab5748be579ca6dc.png
+INFO:root:[SET] : shop_company_logo_image => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/shop-company-logo-images/3c/3c312b39613c2da1ab5748be579ca6dc.png
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 039b4ca925dbd8a7a5ae72a6798ed8b7f449a1b5defc4f7c297fa28c3dd9e646|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "shop_company_logo_image"}
+INFO:root:[GET] : shop_company_logo_image
+INFO:root:獲取 [shop_company_logo_image] => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/shop-company-logo-images/3c/3c312b39613c2da1ab5748be579ca6dc.png
+INFO:root:📌 測試 API : 105-1
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Driver [C:\Users\brandon.lee\.wdm\drivers\edgedriver\win64\135.0.3179.73\msedgedriver.exe] found in cache
+INFO:root:定位: 
+INFO:root:輸入: brandon.lee
+INFO:root:定位: 
+INFO:root:輸入: brandon7068l7
+INFO:root:定位: 登入
+INFO:root:點擊: 登入
+INFO:root:定位: home
+INFO:root:點擊: home
+INFO:root:定位: 打工夥伴
+INFO:root:點擊: 打工夥伴
+INFO:root:定位: 打工夥伴管理
+INFO:root:點擊: 打工夥伴管理
+INFO:root:定位: 
+INFO:root:輸入: 0904140006
+INFO:root:定位: 查詢
+INFO:root:點擊: 查詢
+INFO:root:定位: 審核
+INFO:root:點擊: 審核
+INFO:root:定位: 提交認證
+INFO:root:點擊: 提交認證
+INFO:root:📌 測試 API : 101
+INFO:root:📌 測試 API : 101
+INFO:root:📌 測試 API : 103
+INFO:root:儲存 [E_login_code]:5842
+INFO:root:[SET] : E_login_code => 5842
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_login_code"}
+INFO:root:[GET] : E_login_code
+INFO:root:獲取 [E_login_code] => 5842
+INFO:root:📌 測試 API : 104
+INFO:root:儲存 [E_TOKEN]:78559a7d5808b005f26eb4007cf822da9100985dbbd0e9be45998734774f5bcb|1|staging
+INFO:root:[SET] : E_TOKEN => 78559a7d5808b005f26eb4007cf822da9100985dbbd0e9be45998734774f5bcb|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 78559a7d5808b005f26eb4007cf822da9100985dbbd0e9be45998734774f5bcb|1|staging
+INFO:root:📌 測試 API : 106
+INFO:root:儲存 [E_shop_id]:1436
+INFO:root:[SET] : E_shop_id => 1436
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 78559a7d5808b005f26eb4007cf822da9100985dbbd0e9be45998734774f5bcb|1|staging
+INFO:root:📌 測試 API : 303
+INFO:root:[SET] : job_image => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/job-images/ee/ee3cab0861fbb0f2175d0102e2b105ad.png
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 78559a7d5808b005f26eb4007cf822da9100985dbbd0e9be45998734774f5bcb|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_shop_id"}
+INFO:root:[GET] : E_shop_id
+INFO:root:獲取 [E_shop_id] => 1436
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "job_image"}
+INFO:root:[GET] : job_image
+INFO:root:獲取 [job_image] => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/job-images/ee/ee3cab0861fbb0f2175d0102e2b105ad.png
+INFO:root:📌 測試 API : 109
+INFO:root:儲存 [JOB_SN]:17447104860001
+INFO:root:[SET] : JOB_SN => 17447104860001
+INFO:root:📌 測試 API : 103
+INFO:root:儲存 [E_login_code]:3384
+INFO:root:[SET] : E_login_code => 3384
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_login_code"}
+INFO:root:[GET] : E_login_code
+INFO:root:獲取 [E_login_code] => 3384
+INFO:root:📌 測試 API : 104
+INFO:root:儲存 [E_TOKEN]:6902370097408f08ef803a6d8428eef4d5ef88c9089966cb473efccb576e32a6|1|staging
+
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 6902370097408f08ef803a6d8428eef4d5ef88c9089966cb473efccb576e32a6|1|staging
+INFO:root:📌 測試 API : 106
+INFO:root:儲存 [E_shop_id]:1436
+
+INFO:root:📌 測試 API : 103
+INFO:root:儲存 [E_login_code]:2630
+INFO:root:[SET] : E_login_code => 2630
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_login_code"}
+INFO:root:[GET] : E_login_code
+INFO:root:獲取 [E_login_code] => 2630
+INFO:root:📌 測試 API : 104
+INFO:root:儲存 [E_TOKEN]:7ab6a565475d0dc22e740b2485c03f48dfb4efe9fc3167ae50a8c6c7a54ec2e2|1|staging
+INFO:root:[SET] : E_TOKEN => 7ab6a565475d0dc22e740b2485c03f48dfb4efe9fc3167ae50a8c6c7a54ec2e2|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 7ab6a565475d0dc22e740b2485c03f48dfb4efe9fc3167ae50a8c6c7a54ec2e2|1|staging
+INFO:root:📌 測試 API : 106
+INFO:root:儲存 [E_shop_id]:1436
+INFO:root:[SET] : E_shop_id => 1436
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 7ab6a565475d0dc22e740b2485c03f48dfb4efe9fc3167ae50a8c6c7a54ec2e2|1|staging
+INFO:root:📌 測試 API : 303
+INFO:root:儲存 [job_image]:https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/job-images/b6/b6e4e9b7f733b28e22b598e7d66c74e0.png
+
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 7ab6a565475d0dc22e740b2485c03f48dfb4efe9fc3167ae50a8c6c7a54ec2e2|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_shop_id"}
+INFO:root:[GET] : E_shop_id
+INFO:root:獲取 [E_shop_id] => 1436
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "job_image"}
+INFO:root:[GET] : job_image
+INFO:root:獲取 [job_image] => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/job-images/b6/b6e4e9b7f733b28e22b598e7d66c74e0.png
+INFO:root:📌 測試 API : 109
+INFO:root:[SET] : JOB_SN => 17447132210001
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 7ab6a565475d0dc22e740b2485c03f48dfb4efe9fc3167ae50a8c6c7a54ec2e2|1|staging
+INFO:root:📌 測試 API : 303
+INFO:root:儲存 [job_image]:https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/job-images/19/19ca84f66e009a7277f6f9da99fe9ed4.png
+INFO:root:[SET] : job_image => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/job-images/19/19ca84f66e009a7277f6f9da99fe9ed4.png
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 7ab6a565475d0dc22e740b2485c03f48dfb4efe9fc3167ae50a8c6c7a54ec2e2|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_shop_id"}
+INFO:root:[GET] : E_shop_id
+INFO:root:獲取 [E_shop_id] => 1436
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "job_image"}
+INFO:root:[GET] : job_image
+INFO:root:獲取 [job_image] => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/job-images/19/19ca84f66e009a7277f6f9da99fe9ed4.png
+INFO:root:📌 測試 API : 109
+INFO:root:[SET] : JOB_SN => 17447132260001
+INFO:root:📌 測試 API : 103
+INFO:root:儲存 [E_login_code]:7763
+INFO:root:[SET] : E_login_code => 7763
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_login_code"}
+INFO:root:[GET] : E_login_code
+INFO:root:獲取 [E_login_code] => 7763
+INFO:root:📌 測試 API : 104
+INFO:root:儲存 [E_TOKEN]:7b8b6eb06517a93e274e55e970c95c81e1bfd42dd68369721b6e443a30310f00|1|staging
+INFO:root:[SET] : E_TOKEN => 7b8b6eb06517a93e274e55e970c95c81e1bfd42dd68369721b6e443a30310f00|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 7b8b6eb06517a93e274e55e970c95c81e1bfd42dd68369721b6e443a30310f00|1|staging
+INFO:root:📌 測試 API : 106
+INFO:root:儲存 [E_shop_id]:1437
+INFO:root:[SET] : E_shop_id => 1437
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 7b8b6eb06517a93e274e55e970c95c81e1bfd42dd68369721b6e443a30310f00|1|staging
+INFO:root:📌 測試 API : 303
+INFO:root:儲存 [job_image]:https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/job-images/9e/9e0c0fa6f2ab488d0766922ee6eba830.png
+INFO:root:[SET] : job_image => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/job-images/9e/9e0c0fa6f2ab488d0766922ee6eba830.png
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 7b8b6eb06517a93e274e55e970c95c81e1bfd42dd68369721b6e443a30310f00|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_shop_id"}
+INFO:root:[GET] : E_shop_id
+INFO:root:獲取 [E_shop_id] => 1437
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "job_image"}
+INFO:root:[GET] : job_image
+INFO:root:獲取 [job_image] => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/job-images/9e/9e0c0fa6f2ab488d0766922ee6eba830.png
+INFO:root:📌 測試 API : 109
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 7b8b6eb06517a93e274e55e970c95c81e1bfd42dd68369721b6e443a30310f00|1|staging
+INFO:root:📌 測試 API : 303
+INFO:root:儲存 [job_image]:https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/job-images/82/82f969daf492167f458b33c53ffb64f0.png
+INFO:root:[SET] : job_image => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/job-images/82/82f969daf492167f458b33c53ffb64f0.png
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 7b8b6eb06517a93e274e55e970c95c81e1bfd42dd68369721b6e443a30310f00|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_shop_id"}
+INFO:root:[GET] : E_shop_id
+INFO:root:獲取 [E_shop_id] => 1437
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "job_image"}
+INFO:root:[GET] : job_image
+INFO:root:獲取 [job_image] => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/job-images/82/82f969daf492167f458b33c53ffb64f0.png
+INFO:root:📌 測試 API : 109
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 7b8b6eb06517a93e274e55e970c95c81e1bfd42dd68369721b6e443a30310f00|1|staging
+INFO:root:📌 測試 API : 303
+INFO:root:[SET] : job_image => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/job-images/70/7080ef2706c57e4e0efc4a79b94c06b7.png
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 7b8b6eb06517a93e274e55e970c95c81e1bfd42dd68369721b6e443a30310f00|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_shop_id"}
+INFO:root:[GET] : E_shop_id
+INFO:root:獲取 [E_shop_id] => 1437
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "job_image"}
+INFO:root:[GET] : job_image
+INFO:root:獲取 [job_image] => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/job-images/70/7080ef2706c57e4e0efc4a79b94c06b7.png
+INFO:root:📌 測試 API : 109
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 7b8b6eb06517a93e274e55e970c95c81e1bfd42dd68369721b6e443a30310f00|1|staging
+INFO:root:📌 測試 API : 303
+INFO:root:[SET] : job_image => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/job-images/20/2021ed1d77172650de91b0b89ce026b6.png
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 7b8b6eb06517a93e274e55e970c95c81e1bfd42dd68369721b6e443a30310f00|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_shop_id"}
+INFO:root:[GET] : E_shop_id
+INFO:root:獲取 [E_shop_id] => 1437
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "job_image"}
+INFO:root:[GET] : job_image
+INFO:root:獲取 [job_image] => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/job-images/20/2021ed1d77172650de91b0b89ce026b6.png
+INFO:root:📌 測試 API : 109
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 7b8b6eb06517a93e274e55e970c95c81e1bfd42dd68369721b6e443a30310f00|1|staging
+INFO:root:📌 測試 API : 303
+INFO:root:[SET] : job_image => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/job-images/0d/0d233328eedea1a0290803a458ffe87e.png
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 7b8b6eb06517a93e274e55e970c95c81e1bfd42dd68369721b6e443a30310f00|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_shop_id"}
+INFO:root:[GET] : E_shop_id
+INFO:root:獲取 [E_shop_id] => 1437
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "job_image"}
+INFO:root:[GET] : job_image
+INFO:root:獲取 [job_image] => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/job-images/0d/0d233328eedea1a0290803a458ffe87e.png
+INFO:root:📌 測試 API : 109
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 7b8b6eb06517a93e274e55e970c95c81e1bfd42dd68369721b6e443a30310f00|1|staging
+INFO:root:📌 測試 API : 303
+INFO:root:儲存 [job_image]:https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/job-images/cd/cddaaa6e0aca0d5a3e097af72c42f502.png
+INFO:root:[SET] : job_image => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/job-images/cd/cddaaa6e0aca0d5a3e097af72c42f502.png
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 7b8b6eb06517a93e274e55e970c95c81e1bfd42dd68369721b6e443a30310f00|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_shop_id"}
+INFO:root:[GET] : E_shop_id
+INFO:root:獲取 [E_shop_id] => 1437
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "job_image"}
+INFO:root:[GET] : job_image
+INFO:root:獲取 [job_image] => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/job-images/cd/cddaaa6e0aca0d5a3e097af72c42f502.png
+INFO:root:📌 測試 API : 109
+INFO:root:📌 測試 API : 103
+INFO:root:儲存 [E_login_code]:1244
+INFO:root:[SET] : E_login_code => 1244
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_login_code"}
+INFO:root:[GET] : E_login_code
+INFO:root:獲取 [E_login_code] => 1244
+INFO:root:📌 測試 API : 104
+INFO:root:儲存 [E_TOKEN]:a0647db38bf756e50f745ac5d63f7af3236bc89df63f7c115fd5e638194b0de3|1|staging
+
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => a0647db38bf756e50f745ac5d63f7af3236bc89df63f7c115fd5e638194b0de3|1|staging
+INFO:root:📌 測試 API : 106
+INFO:root:儲存 [E_shop_id]:1437
+INFO:root:[SET] : E_shop_id => 1437
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => a0647db38bf756e50f745ac5d63f7af3236bc89df63f7c115fd5e638194b0de3|1|staging
+INFO:root:📌 測試 API : 303
+INFO:root:儲存 [job_image]:https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/job-images/f9/f9440a40eb4dc8a60eacdf09d270ee43.png
+INFO:root:[SET] : job_image => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/job-images/f9/f9440a40eb4dc8a60eacdf09d270ee43.png
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => a0647db38bf756e50f745ac5d63f7af3236bc89df63f7c115fd5e638194b0de3|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_shop_id"}
+INFO:root:[GET] : E_shop_id
+INFO:root:獲取 [E_shop_id] => 1437
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "job_image"}
+INFO:root:[GET] : job_image
+INFO:root:獲取 [job_image] => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/job-images/f9/f9440a40eb4dc8a60eacdf09d270ee43.png
+INFO:root:📌 測試 API : 109
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => a0647db38bf756e50f745ac5d63f7af3236bc89df63f7c115fd5e638194b0de3|1|staging
+INFO:root:📌 測試 API : 303
+INFO:root:[SET] : job_image => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/job-images/af/afeeb55ea10165531c87d92d6aacb931.png
+INFO:root:儲存 [job_image]:https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/job-images/af/afeeb55ea10165531c87d92d6aacb931.png
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => a0647db38bf756e50f745ac5d63f7af3236bc89df63f7c115fd5e638194b0de3|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_shop_id"}
+INFO:root:[GET] : E_shop_id
+INFO:root:獲取 [E_shop_id] => 1437
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "job_image"}
+INFO:root:[GET] : job_image
+INFO:root:獲取 [job_image] => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/job-images/af/afeeb55ea10165531c87d92d6aacb931.png
+INFO:root:📌 測試 API : 109
+INFO:root:儲存 [JOB_SN]:17447145190001
+
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => a0647db38bf756e50f745ac5d63f7af3236bc89df63f7c115fd5e638194b0de3|1|staging
+INFO:root:📌 測試 API : 303
+INFO:root:儲存 [job_image]:https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/job-images/f5/f57f9a97fabbcab9461f2f7524c19ad2.png
+INFO:root:[SET] : job_image => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/job-images/f5/f57f9a97fabbcab9461f2f7524c19ad2.png
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => a0647db38bf756e50f745ac5d63f7af3236bc89df63f7c115fd5e638194b0de3|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_shop_id"}
+INFO:root:[GET] : E_shop_id
+INFO:root:獲取 [E_shop_id] => 1437
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "job_image"}
+INFO:root:[GET] : job_image
+INFO:root:獲取 [job_image] => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/job-images/f5/f57f9a97fabbcab9461f2f7524c19ad2.png
+INFO:root:📌 測試 API : 109
+INFO:root:儲存 [JOB_SN]:17447145220001
+INFO:root:[SET] : JOB_SN => 17447145220001
+INFO:root:📌 測試 API : 103
+INFO:root:儲存 [E_login_code]:3465
+INFO:root:[SET] : E_login_code => 3465
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_login_code"}
+INFO:root:[GET] : E_login_code
+INFO:root:獲取 [E_login_code] => 3465
+INFO:root:📌 測試 API : 104
+INFO:root:儲存 [E_TOKEN]:a952e36e11fa2703d849270270c9f519ee2140f6451a261c547c3d8b73bf8e42|1|staging
+
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => a952e36e11fa2703d849270270c9f519ee2140f6451a261c547c3d8b73bf8e42|1|staging
+INFO:root:📌 測試 API : 106
+INFO:root:[SET] : E_shop_id => 1437
+INFO:root:儲存 [E_shop_id]:1437
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => a952e36e11fa2703d849270270c9f519ee2140f6451a261c547c3d8b73bf8e42|1|staging
+INFO:root:📌 測試 API : 303
+INFO:root:儲存 [job_image]:https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/job-images/35/35b2922df692921b8c17e1530143a08d.png
+
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => a952e36e11fa2703d849270270c9f519ee2140f6451a261c547c3d8b73bf8e42|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_shop_id"}
+INFO:root:[GET] : E_shop_id
+INFO:root:獲取 [E_shop_id] => 1437
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "job_image"}
+INFO:root:[GET] : job_image
+INFO:root:獲取 [job_image] => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/job-images/35/35b2922df692921b8c17e1530143a08d.png
+INFO:root:📌 測試 API : 109
+INFO:root:[SET] : JOB_SN => 17447147460001
+INFO:root:📌 測試 API : 103
+INFO:root:儲存 [E_login_code]:2841
+INFO:root:[SET] : E_login_code => 2841
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_login_code"}
+INFO:root:[GET] : E_login_code
+INFO:root:獲取 [E_login_code] => 2841
+INFO:root:📌 測試 API : 104
+INFO:root:儲存 [E_TOKEN]:f86208c709362945a859e0fffa6c0ec8c24c07c47c53046e14a583d3de9d8d92|1|staging
+INFO:root:[SET] : E_TOKEN => f86208c709362945a859e0fffa6c0ec8c24c07c47c53046e14a583d3de9d8d92|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => f86208c709362945a859e0fffa6c0ec8c24c07c47c53046e14a583d3de9d8d92|1|staging
+INFO:root:📌 測試 API : 106
+INFO:root:[SET] : E_shop_id => 1439
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => f86208c709362945a859e0fffa6c0ec8c24c07c47c53046e14a583d3de9d8d92|1|staging
+INFO:root:📌 測試 API : 303
+INFO:root:儲存 [job_image]:https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/job-images/12/12f8ec9ba6314f7a31a0800cf58543b8.png
+
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => f86208c709362945a859e0fffa6c0ec8c24c07c47c53046e14a583d3de9d8d92|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_shop_id"}
+INFO:root:[GET] : E_shop_id
+INFO:root:獲取 [E_shop_id] => 1439
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "job_image"}
+INFO:root:[GET] : job_image
+INFO:root:獲取 [job_image] => https://next-staging-v210x.res.staging.worky.com.tw/upload/worky/job-images/12/12f8ec9ba6314f7a31a0800cf58543b8.png
+INFO:root:📌 測試 API : 109
+INFO:root:📌 測試 API : 103
+INFO:root:儲存 [E_login_code]:2787
+
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_login_code"}
+INFO:root:[GET] : E_login_code
+INFO:root:獲取 [E_login_code] => 2787
+INFO:root:📌 測試 API : 104
+INFO:root:儲存 [E_TOKEN]:14f62599ca00a54ef5cb7d752c42bc6d664a903cce79141e5c6dcbb93d45bc9b|1|staging
+
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 14f62599ca00a54ef5cb7d752c42bc6d664a903cce79141e5c6dcbb93d45bc9b|1|staging
+INFO:root:📌 測試 API : 106
+INFO:root:儲存 [E_shop_id]:237
+
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 14f62599ca00a54ef5cb7d752c42bc6d664a903cce79141e5c6dcbb93d45bc9b|1|staging
+INFO:root:📌 測試 API : 303
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 14f62599ca00a54ef5cb7d752c42bc6d664a903cce79141e5c6dcbb93d45bc9b|1|staging
+INFO:root:📌 測試 API : 303
+INFO:root:儲存 [job_image]:https://next-staging-v211x.res.staging.worky.com.tw/upload/worky/job-images/f6/f6710a58f40e7f8a634f0fc235916c22.png
+
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 14f62599ca00a54ef5cb7d752c42bc6d664a903cce79141e5c6dcbb93d45bc9b|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_shop_id"}
+INFO:root:[GET] : E_shop_id
+INFO:root:獲取 [E_shop_id] => 237
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "job_image"}
+INFO:root:[GET] : job_image
+INFO:root:獲取 [job_image] => https://next-staging-v211x.res.staging.worky.com.tw/upload/worky/job-images/f6/f6710a58f40e7f8a634f0fc235916c22.png
+INFO:root:📌 測試 API : 109
+INFO:root:儲存 [JOB_SN]:17447926010001
+INFO:root:[SET] : JOB_SN => 17447926010001
+INFO:root:📌 測試 API : 103
+INFO:root:儲存 [E_login_code]:2846
+INFO:root:[SET] : E_login_code => 2846
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_login_code"}
+INFO:root:[GET] : E_login_code
+INFO:root:獲取 [E_login_code] => 2846
+INFO:root:📌 測試 API : 104
+INFO:root:[SET] : E_TOKEN => 3b9bd2de84e8e2fc5a8f3d3a677f55d56b304e2008e6d2b56daab96a46f32aa4|1|staging
+INFO:root:儲存 [E_TOKEN]:3b9bd2de84e8e2fc5a8f3d3a677f55d56b304e2008e6d2b56daab96a46f32aa4|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 3b9bd2de84e8e2fc5a8f3d3a677f55d56b304e2008e6d2b56daab96a46f32aa4|1|staging
+INFO:root:📌 測試 API : 106
+INFO:root:儲存 [E_shop_id]:237
+INFO:root:[SET] : E_shop_id => 237
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 3b9bd2de84e8e2fc5a8f3d3a677f55d56b304e2008e6d2b56daab96a46f32aa4|1|staging
+INFO:root:📌 測試 API : 303
+INFO:root:儲存 [job_image]:https://next-staging-v211x.res.staging.worky.com.tw/upload/worky/job-images/fe/fea74a9200d078897f2a64ae5b311ed5.png
+INFO:root:[SET] : job_image => https://next-staging-v211x.res.staging.worky.com.tw/upload/worky/job-images/fe/fea74a9200d078897f2a64ae5b311ed5.png
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 3b9bd2de84e8e2fc5a8f3d3a677f55d56b304e2008e6d2b56daab96a46f32aa4|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_shop_id"}
+INFO:root:[GET] : E_shop_id
+INFO:root:獲取 [E_shop_id] => 237
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "job_image"}
+INFO:root:[GET] : job_image
+INFO:root:獲取 [job_image] => https://next-staging-v211x.res.staging.worky.com.tw/upload/worky/job-images/fe/fea74a9200d078897f2a64ae5b311ed5.png
+INFO:root:📌 測試 API : 109
+INFO:root:儲存 [JOB_SN]:17447934100001
+INFO:root:[SET] : JOB_SN => 17447934100001
+INFO:root:📌 測試 API : 101
+INFO:root:📌 測試 API : 101
+INFO:root:📌 測試 API : 101
+INFO:root:📌 測試 API : 101
+INFO:root:📌 測試 API : 101
+INFO:root:📌 測試 API : 101
+ERROR:root:無法連接到伺服器 localhost:5000: [WinError 10061] 無法連線，因為目標電腦拒絕連線。
+INFO:root:📌 測試 API : 101
+INFO:root:儲存 [E_register_code]:8370
+INFO:root:[SET] : E_register_code => 8370
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_register_code"}
+INFO:root:[GET] : E_register_code
+INFO:root:獲取 [E_register_code] => 8370
+INFO:root:📌 測試 API : 102
+INFO:root:儲存 [E_TOKEN]:e73c6f0e65bca17d14f4530a48635bb3d8b24ee2706da92a029b90a8bc779874|1|staging
+INFO:root:[SET] : E_TOKEN => e73c6f0e65bca17d14f4530a48635bb3d8b24ee2706da92a029b90a8bc779874|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => e73c6f0e65bca17d14f4530a48635bb3d8b24ee2706da92a029b90a8bc779874|1|staging
+INFO:root:📌 測試 API : 303
+INFO:root:儲存 [shop_company_logo_image]:https://next-staging-v211x.res.staging.worky.com.tw/upload/worky/shop-company-logo-images/68/681b63c27587e278fc6d68c7fd1a9566.png
+
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => e73c6f0e65bca17d14f4530a48635bb3d8b24ee2706da92a029b90a8bc779874|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "shop_company_logo_image"}
+INFO:root:[GET] : shop_company_logo_image
+INFO:root:獲取 [shop_company_logo_image] => https://next-staging-v211x.res.staging.worky.com.tw/upload/worky/shop-company-logo-images/68/681b63c27587e278fc6d68c7fd1a9566.png
+INFO:root:📌 測試 API : 105-1
+INFO:root:[SET] : E_shop_id => 1571
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => e73c6f0e65bca17d14f4530a48635bb3d8b24ee2706da92a029b90a8bc779874|1|staging
+INFO:root:📌 測試 API : 303
+INFO:root:儲存 [shop_verify_image]:https://next-staging-v211x.res.staging.worky.com.tw/upload/worky/shop-verify-images/cb/cb9ac8e1bc4779814e0c9dd26c85df00.png
+INFO:root:[SET] : shop_verify_image => https://next-staging-v211x.res.staging.worky.com.tw/upload/worky/shop-verify-images/cb/cb9ac8e1bc4779814e0c9dd26c85df00.png
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => e73c6f0e65bca17d14f4530a48635bb3d8b24ee2706da92a029b90a8bc779874|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_shop_id"}
+INFO:root:[GET] : E_shop_id
+INFO:root:獲取 [E_shop_id] => 1571
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "shop_verify_image"}
+INFO:root:[GET] : shop_verify_image
+INFO:root:獲取 [shop_verify_image] => https://next-staging-v211x.res.staging.worky.com.tw/upload/worky/shop-verify-images/cb/cb9ac8e1bc4779814e0c9dd26c85df00.png
+INFO:root:📌 測試 API : 105-3
+INFO:WDM:====== WebDriver manager ======
+INFO:root:📌 測試 API : 101
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:About to download new driver from https://msedgedriver.azureedge.net/135.0.3179.98/edgedriver_win64.zip
+INFO:WDM:Driver downloading response is 200
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Driver has been saved in cache [C:\Users\brandon.lee\.wdm\drivers\edgedriver\win64\135.0.3179.98]
+INFO:root:定位: 
+INFO:root:輸入: brandon.lee
+INFO:root:定位: 
+INFO:root:輸入: brandon7068l7
+INFO:root:定位: 登入
+INFO:root:點擊: 登入
+INFO:root:定位: home
+INFO:root:點擊: home
+INFO:root:定位: 商家管理
+INFO:root:點擊: 商家管理
+INFO:root:定位: 店鋪管理
+INFO:root:點擊: 店鋪管理
+INFO:root:定位: 
+INFO:root:輸入: 0904290000
+INFO:root:定位: 查詢
+INFO:root:點擊: 查詢
+INFO:root:定位: 審核
+INFO:root:點擊: 審核
+INFO:root:定位: 通過
+INFO:root:點擊: 通過
+INFO:root:定位: 確定
+INFO:root:點擊: 確定
+INFO:root:📌 測試 API : 101
+INFO:root:📌 測試 API : 101
+INFO:root:儲存 [E_register_code]:0949
+INFO:root:[SET] : E_register_code => 0949
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_register_code"}
+INFO:root:[GET] : E_register_code
+INFO:root:獲取 [E_register_code] => 0949
+INFO:root:📌 測試 API : 102
+INFO:root:儲存 [E_TOKEN]:80ce1d6645e14a689013efe4a9e514bdc45cb3cce378754b7064c02acb28336e|1|staging
+
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 80ce1d6645e14a689013efe4a9e514bdc45cb3cce378754b7064c02acb28336e|1|staging
+INFO:root:📌 測試 API : 303
+INFO:root:儲存 [shop_company_logo_image]:https://next-staging-v211x.res.staging.worky.com.tw/upload/worky/shop-company-logo-images/df/dfb95315748b35343662460c5a6f1e0e.png
+INFO:root:[SET] : shop_company_logo_image => https://next-staging-v211x.res.staging.worky.com.tw/upload/worky/shop-company-logo-images/df/dfb95315748b35343662460c5a6f1e0e.png
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 80ce1d6645e14a689013efe4a9e514bdc45cb3cce378754b7064c02acb28336e|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "shop_company_logo_image"}
+INFO:root:[GET] : shop_company_logo_image
+INFO:root:獲取 [shop_company_logo_image] => https://next-staging-v211x.res.staging.worky.com.tw/upload/worky/shop-company-logo-images/df/dfb95315748b35343662460c5a6f1e0e.png
+INFO:root:📌 測試 API : 105-1
+INFO:root:[SET] : E_shop_id => 1572
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 80ce1d6645e14a689013efe4a9e514bdc45cb3cce378754b7064c02acb28336e|1|staging
+INFO:root:📌 測試 API : 303
+INFO:root:儲存 [shop_verify_image]:https://next-staging-v211x.res.staging.worky.com.tw/upload/worky/shop-verify-images/cb/cb6bcb1a68c9b98066114098711bac2c.png
+INFO:root:[SET] : shop_verify_image => https://next-staging-v211x.res.staging.worky.com.tw/upload/worky/shop-verify-images/cb/cb6bcb1a68c9b98066114098711bac2c.png
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => 80ce1d6645e14a689013efe4a9e514bdc45cb3cce378754b7064c02acb28336e|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_shop_id"}
+INFO:root:[GET] : E_shop_id
+INFO:root:獲取 [E_shop_id] => 1572
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "shop_verify_image"}
+INFO:root:[GET] : shop_verify_image
+INFO:root:獲取 [shop_verify_image] => https://next-staging-v211x.res.staging.worky.com.tw/upload/worky/shop-verify-images/cb/cb6bcb1a68c9b98066114098711bac2c.png
+INFO:root:📌 測試 API : 105-3
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Driver [C:\Users\brandon.lee\.wdm\drivers\edgedriver\win64\135.0.3179.98\msedgedriver.exe] found in cache
+INFO:root:定位: 
+INFO:root:輸入: brandon.lee
+INFO:root:定位: 
+INFO:root:輸入: brandon7068l7
+INFO:root:定位: 登入
+INFO:root:點擊: 登入
+INFO:root:定位: home
+INFO:root:點擊: home
+INFO:root:定位: 商家管理
+INFO:root:點擊: 商家管理
+INFO:root:定位: 店鋪管理
+INFO:root:點擊: 店鋪管理
+INFO:root:定位: 
+INFO:root:輸入: 0904290001
+INFO:root:定位: 查詢
+INFO:root:點擊: 查詢
+INFO:root:定位: 審核
+INFO:root:點擊: 審核
+INFO:root:定位: 通過
+INFO:root:點擊: 通過
+INFO:root:定位: 確定
+INFO:root:點擊: 確定
+INFO:root:📌 測試 API : 101
+INFO:root:📌 測試 API : 101
+INFO:root:儲存 [E_register_code]:8101
+INFO:root:[SET] : E_register_code => 8101
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_register_code"}
+INFO:root:[GET] : E_register_code
+INFO:root:獲取 [E_register_code] => 8101
+INFO:root:📌 測試 API : 102
+INFO:root:[SET] : E_TOKEN => fd1ee44f58d1c099ecf09ffffc222836a4ed6d66eda9330b04d3bab24c280149|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => fd1ee44f58d1c099ecf09ffffc222836a4ed6d66eda9330b04d3bab24c280149|1|staging
+INFO:root:📌 測試 API : 303
+INFO:root:儲存 [shop_company_logo_image]:https://next-staging-v211x.res.staging.worky.com.tw/upload/worky/shop-company-logo-images/84/840b70a8f9e11d752f69abf36c618fb0.png
+INFO:root:[SET] : shop_company_logo_image => https://next-staging-v211x.res.staging.worky.com.tw/upload/worky/shop-company-logo-images/84/840b70a8f9e11d752f69abf36c618fb0.png
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => fd1ee44f58d1c099ecf09ffffc222836a4ed6d66eda9330b04d3bab24c280149|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "shop_company_logo_image"}
+INFO:root:[GET] : shop_company_logo_image
+INFO:root:獲取 [shop_company_logo_image] => https://next-staging-v211x.res.staging.worky.com.tw/upload/worky/shop-company-logo-images/84/840b70a8f9e11d752f69abf36c618fb0.png
+INFO:root:📌 測試 API : 105-1
+INFO:root:[SET] : E_shop_id => 1573
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => fd1ee44f58d1c099ecf09ffffc222836a4ed6d66eda9330b04d3bab24c280149|1|staging
+INFO:root:📌 測試 API : 303
+INFO:root:儲存 [shop_verify_image]:https://next-staging-v211x.res.staging.worky.com.tw/upload/worky/shop-verify-images/a6/a603a0ff78cf517b4e719bd1463da39f.png
+INFO:root:[SET] : shop_verify_image => https://next-staging-v211x.res.staging.worky.com.tw/upload/worky/shop-verify-images/a6/a603a0ff78cf517b4e719bd1463da39f.png
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_TOKEN"}
+INFO:root:[GET] : E_TOKEN
+INFO:root:獲取 [E_TOKEN] => fd1ee44f58d1c099ecf09ffffc222836a4ed6d66eda9330b04d3bab24c280149|1|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "E_shop_id"}
+INFO:root:[GET] : E_shop_id
+INFO:root:獲取 [E_shop_id] => 1573
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "shop_verify_image"}
+INFO:root:[GET] : shop_verify_image
+INFO:root:獲取 [shop_verify_image] => https://next-staging-v211x.res.staging.worky.com.tw/upload/worky/shop-verify-images/a6/a603a0ff78cf517b4e719bd1463da39f.png
+INFO:root:📌 測試 API : 105-3
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Driver [C:\Users\brandon.lee\.wdm\drivers\edgedriver\win64\135.0.3179.98\msedgedriver.exe] found in cache
+INFO:root:定位: 
+INFO:root:輸入: brandon.lee
+INFO:root:定位: 
+INFO:root:輸入: brandon7068l7
+INFO:root:定位: 登入
+INFO:root:點擊: 登入
+INFO:root:定位: home
+INFO:root:點擊: home
+INFO:root:定位: 商家管理
+INFO:root:點擊: 商家管理
+INFO:root:定位: 店鋪管理
+INFO:root:點擊: 店鋪管理
+INFO:root:定位: 
+INFO:root:輸入: 0915000083
+INFO:root:定位: 查詢
+INFO:root:點擊: 查詢
+INFO:root:定位: 審核
+INFO:root:點擊: 審核
+INFO:root:定位: 通過
+INFO:root:點擊: 通過
+INFO:root:定位: 確定
+INFO:root:點擊: 確定
