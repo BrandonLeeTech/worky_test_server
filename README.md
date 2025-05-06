@@ -5,16 +5,16 @@
 
 
 > 會在一台機器上啟動
-1. uvicorn (讓外部訪問)
-2. Apache server
-3. 本地端 socket io (腳本內主要用來傳遞 response 的方法)
+    1. uvicorn (讓外部訪問)
+    2. [Apache server](https://www.apachefriends.org/download.html)
+    3. 本地端 socket io (腳本內主要用來傳遞 response 的方法)
 >
 
 ![image.png](note_img/image.png)
 
 別的機器可透過 [http://192.168.1.111/php_python_api_demo/frontend/index.html](http://192.168.1.111/php_python_api_demo/frontend/index.html) 來訪問前臺
 
----
+
 
 ## 1. 前端 frontend 資料夾
 
@@ -66,7 +66,7 @@
 
 ![image.png](note_img/image10.png)
 
----
+
 
 ## 2. 後端 backend 資料夾
 
@@ -109,3 +109,64 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 打包完後 include 到剛剛的 main.py 腳本內，重新啟動 uvicorn 就會看到測試用的 API
 
 ![image.png](note_img/image18.png)
+
+
+
+## 3. 下載 Apache
+
+[Apache 下載位置](https://www.apachefriends.org/download.html)
+
+![image.png](note_img/image19.png)
+
+記下下載位置，例如我放在 C:/ 槽下
+
+![image.png](note_img/image20.png)
+
+啟動 `xampp-control.exe`
+
+![image.png](note_img/image24.png)
+
+
+
+## 4. 建立 python 環境
+
+1. clone 專案
+
+```bash
+git clone http://122.147.190.35/SQATP/worky_test_server.git
+```
+
+並移動專案到剛剛下載的 `xampp\htdocs\project` 下，例如我的專案名叫 'php_python_api_demo'
+
+![image.png](note_img/image21.png)
+
+
+2. 啟動虛擬環境(也可以用 conda)
+
+```bash
+cd project (修改為自己設定的名稱)
+python -m venv venv
+venv\Scripts\activate
+```
+
+3. 下載依賴包
+
+```bash
+pip install -r requirements.txt
+```
+
+4. 啟動 uvicorn
+
+```bash
+uvicorn main:app --reload --host 0.0.0.0 --port 8000
+```
+
+![image.png](note_img/image22.png)
+
+5. 啟動 socket io
+
+```bash
+uvicorn main:app --reload --host 0.0.0.0 --port 8000
+```
+
+![image.png](note_img/image23.png)
