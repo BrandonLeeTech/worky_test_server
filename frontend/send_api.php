@@ -1,11 +1,12 @@
 <?php
 require_once 'get_request.php';
 
-$api_target = $_POST['api_target'] ?? '';
-
 $environments = [
   "local" => "http://192.168.1.111:8000/",
 ];
+$api_target = $_POST['api_target'] ?? '';
+
+
 $api_base = $environments["local"];
 $api_url = $api_base . $api_target;
 

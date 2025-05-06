@@ -11,8 +11,18 @@
         <option value="get-test">測試_get</option>
         <option value="post-test">測試_post</option>
         <option value="build_employer">註冊商家</option>
+        <option value="build_labor">註冊打工</option>
       </select><br>
     </label>
+
+    <!-- get-test 無需任何欄位 -->
+
+    <!-- post-test 相關欄位 -->
+    <div id="fields_post-test">
+      <label>使用者名稱：
+        <input type="text" name="username">
+      </label><br>
+    </div>
 
     <!-- 註冊商家相關欄位 -->
     <div id="fields_build_employer">
@@ -22,24 +32,34 @@
           <option value="https://next-staging-v210x.api.staging.worky.com.tw/">staging v210</option>
         </select>
       </label><br>
-      <label>商店名稱：
-        <input type="text" name="e_name">
-      </label><br>
       <label>電話：
         <input type="text" name="e_phone">
       </label><br>
-    </div>
-
-    <!-- post-test 相關欄位 -->
-    <div id="fields_post-test">
-      <label>使用者名稱：
-        <input type="text" name="username">
+      <label>商店名稱：
+        <input type="text" name="e_name">
       </label><br>
     </div>
 
-    <!-- get-test 無需任何欄位 -->
+    <!-- 註冊打工相關欄位 -->
+    <div id="fields_build_labor">
+      <label>測試環境：
+        <select name="base_url">
+          <option value="https://next-staging-v211x.api.staging.worky.com.tw/">staging v211</option>
+          <option value="https://next-staging-v210x.api.staging.worky.com.tw/">staging v210</option>
+        </select>
+      </label><br>
+      <label>電話：
+        <input type="text" name="l_phone">
+      </label><br>
+      <label>打工名稱：
+        <input type="text" name="l_name">
+      </label><br>
+    </div>
+
+    <!-- 送出按鈕 -->
     <button type="submit">送出測試任務</button>
   </form>
+
 
   <script>
     document.addEventListener("DOMContentLoaded", function () {
@@ -48,17 +68,18 @@
 
       // 判斷測試選擇的 target
       const fieldGroups = {
-        "build_employer": document.getElementById("fields_build_employer"),
+        "get-test": null,  // 不需要欄位
         "post-test": document.getElementById("fields_post-test"),
-        "get-test": null  // 不需要欄位
+        "build_employer": document.getElementById("fields_build_employer"),
+        "build_labor": document.getElementById("fields_build_labor")
       };
 
       // 判斷必填欄位
       const requiredFields = {
+        "post-test": ["username"],
         "build_employer": ["base_url", "e_name", "e_phone"],
-        "post-test": ["username"]
+        "build_labor": ["base_url", "l_name", "l_phone"],
       };
-
 
     function updateFieldVisibility() {
       const selected = apiSelect.value;
