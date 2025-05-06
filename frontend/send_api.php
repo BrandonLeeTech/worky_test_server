@@ -3,6 +3,7 @@ require_once 'get_request.php';
 
 $environments = [
   "local" => "http://192.168.1.111:8000/",
+  "dev" => "http://127.0.0.1:8000/",
 ];
 $api_target = $_POST['api_target'] ?? '';
 

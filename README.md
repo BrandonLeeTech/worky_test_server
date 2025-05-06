@@ -1,7 +1,8 @@
 # Project Overview
 本專案用自建 API 測試 Worky APP，主要用來餵資料 -2025/5
 
-👉 **[點我前往測試頁面](http://192.168.1.111/php_python_api_demo/frontend/index.html)**
+👉 **[點我前往 uvicorn web](http://192.168.1.111:8000/docs#/)**
+👉 **[點我前往測試頁面](http://192.168.1.111/worky_test_server/frontend/index.html)**
 
 
 > 會在一台機器上啟動
@@ -144,7 +145,7 @@ git clone http://122.147.190.35/SQATP/worky_test_server.git
 2. 啟動虛擬環境(也可以用 conda)
 
 ```bash
-cd project (修改為自己設定的名稱)
+cd C:\xampp\htdocs\worky_test_server
 python -m venv venv
 venv\Scripts\activate
 ```
