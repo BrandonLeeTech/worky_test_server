@@ -6,7 +6,7 @@ from utils.action_input import InputAction
 from web.webdriver_option import launch_edge_driver
 
 
-def shop_audit_passed_h(background, employer_phone):
+def shop_audit_passed(background, employer_phone):
     """自動適應本機和 Docker/虛擬機環境的 Edge WebDriver"""
     driver = launch_edge_driver()
     click_action = ClickAction(driver)
@@ -59,4 +59,4 @@ def shop_audit_passed_h(background, employer_phone):
 if __name__ == "__main__":
     URL = "https://next-staging-v210x.backend.staging.worky.com.tw"
     PHONE = "904120001"
-    shop_audit_passed_h(URL, PHONE)
+    shop_audit_passed(URL, PHONE)

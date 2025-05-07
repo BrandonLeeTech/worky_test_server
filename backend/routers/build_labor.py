@@ -14,7 +14,7 @@ class TestData(BaseModel):
     l_name: str
 
 @router.post("/build_labor")
-def register_and_validation(data: TestData):
+def register_labor(data: TestData):
     """
     註冊打工 → 驗證 → 建立 → 檢查驗證 → 審核通過
     """

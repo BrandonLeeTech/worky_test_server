@@ -19,6 +19,7 @@ app.include_router(get_api.router)
 app.include_router(post_api.router)
 app.include_router(build_employer.router)
 app.include_router(build_labor.router)
+app.include_router(set_account.router)
 
 # 預設轉跳到 /docs
 @app.get("/", include_in_schema=False)

@@ -14,7 +14,7 @@ class TestData(BaseModel):
     e_name: str
 
 @router.post("/build_employer")
-def register_and_validation(data: TestData):
+def register_employer(data: TestData):
     """
     註冊商家 → 驗證 → 建立 → 檢查驗證 → 審核通過
     """
@@ -29,7 +29,7 @@ def register_and_validation(data: TestData):
         worky_105_3.e_shop_validation_request(data.base_url, data.e_name)
         # 5. 進入後台通過審核
         backend_url = data.base_url.replace("api", "backend", 1)
-        shop_audit_passed_h(backend_url, data.e_phone)
+        shop_audit_passed(backend_url, data.e_phone)
 
         return {"status": "success", "msg": f"{data.e_name} 商家註冊流程完成 ✅"}
 

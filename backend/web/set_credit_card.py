@@ -8,7 +8,7 @@ from utils.credit_card_number import get_random_value
 from web.webdriver_option import launch_edge_driver
 
 
-def credit_card_bind_h():
+def credit_card_bind():
     """資訊查詢 API (GET)"""
     socket_manager = SocketDataManager()
     url = socket_manager.get_data("E_credit_card_url")
@@ -58,4 +58,4 @@ def credit_card_bind_h():
 
 
 if __name__ == "__main__":
-    credit_card_bind_h()
+    credit_card_bind()

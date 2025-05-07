@@ -3,8 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <title>測試任務表單</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+      line-height: 1.8;
+    }
+    label {
+      display: block;
+      margin: 10px 0 5px;
+    }
+    select, input {
+      padding: 5px;
+      width: 250px;
+    }
+    #field_common,
+    #fields_post-test,
+    #fields_build_employer,
+    #fields_build_labor,
+    #fields_set_account {
+      margin-top: 10px;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+  </style>
 </head>
 <body>
+  <h2>測試任務表單</h2>
+
   <form id="testForm" action="send_api.php" method="POST">
     <label>呼叫 API 測試：
       <select id="api_target" name="api_target">
@@ -12,98 +41,53 @@
         <option value="post-test">測試_post</option>
         <option value="build_employer">註冊商家</option>
         <option value="build_labor">註冊打工</option>
-      </select><br>
+        <option value="set_account">商家設置帳戶</option>
+      </select>
     </label>
 
-    <!-- get-test 無需任何欄位 -->
-
-    <!-- post-test 相關欄位 -->
+    <!-- post-test 專屬欄位 -->
     <div id="fields_post-test">
       <label>使用者名稱：
         <input type="text" name="username">
-      </label><br>
+      </label>
     </div>
 
-    <!-- 註冊商家相關欄位 -->
-    <div id="fields_build_employer">
+    <!-- 共用欄位 -->
+    <div id="field_common" style="display: none;">
       <label>測試環境：
         <select name="base_url">
           <option value="https://next-staging-v211x.api.staging.worky.com.tw/">staging v211</option>
           <option value="https://next-staging-v210x.api.staging.worky.com.tw/">staging v210</option>
         </select>
-      </label><br>
+      </label>
       <label>電話：
-        <input type="text" name="e_phone">
-      </label><br>
+        <input type="text" name="phone">
+      </label>
+    </div>
+
+    <!-- 註冊商家專屬欄位 -->
+    <div id="fields_build_employer" style="display: none;">
       <label>商店名稱：
         <input type="text" name="e_name">
-      </label><br>
+      </label>
     </div>
 
-    <!-- 註冊打工相關欄位 -->
-    <div id="fields_build_labor">
-      <label>測試環境：
-        <select name="base_url">
-          <option value="https://next-staging-v211x.api.staging.worky.com.tw/">staging v211</option>
-          <option value="https://next-staging-v210x.api.staging.worky.com.tw/">staging v210</option>
-        </select>
-      </label><br>
-      <label>電話：
-        <input type="text" name="l_phone">
-      </label><br>
+    <!-- 註冊打工專屬欄位 -->
+    <div id="fields_build_labor" style="display: none;">
       <label>打工名稱：
         <input type="text" name="l_name">
-      </label><br>
+      </label>
     </div>
 
-    <!-- 送出按鈕 -->
+    <!-- 商家設置帳戶（目前無額外欄位） -->
+    <div id="fields_set_account" style="display: none;">
+      <!-- 可擴充欄位 -->
+    </div>
+
     <button type="submit">送出測試任務</button>
   </form>
 
-
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      const apiSelect = document.getElementById("api_target");
-      const form = document.getElementById("testForm");
-
-      // 判斷測試選擇的 target
-      const fieldGroups = {
-        "get-test": null,  // 不需要欄位
-        "post-test": document.getElementById("fields_post-test"),
-        "build_employer": document.getElementById("fields_build_employer"),
-        "build_labor": document.getElementById("fields_build_labor")
-      };
-
-      // 判斷必填欄位
-      const requiredFields = {
-        "post-test": ["username"],
-        "build_employer": ["base_url", "e_name", "e_phone"],
-        "build_labor": ["base_url", "l_name", "l_phone"],
-      };
-
-    function updateFieldVisibility() {
-      const selected = apiSelect.value;
-
-      // 顯示或隱藏區塊
-      for (const [key, el] of Object.entries(fieldGroups)) {
-        if (el) el.style.display = (key === selected) ? "block" : "none";
-      }
-
-      // 清除所有 required
-      form.querySelectorAll("input, select").forEach(el => el.required = false);
-
-      // 為選中的 API 加上 required
-      if (requiredFields[selected]) {
-        requiredFields[selected].forEach(name => {
-          const el = form.querySelector(`[name="${name}"]`);
-          if (el) el.required = true;
-        });
-      }
-    }
-
-    apiSelect.addEventListener("change", updateFieldVisibility);
-    updateFieldVisibility(); // 初始化
-  });
-  </script>
+  <!-- 引入外部 JavaScript -->
+  <script src="form_logic.js"></script>
 </body>
 </html>

@@ -20,6 +20,12 @@ function getRequestData($target, $post) {
                 "l_name" => $post['l_name']
             ];
 
+        case "set_account":
+            return [
+                "base_url" => $post['base_url'],
+                "e_phone" => $post['e_phone'],
+            ];
+
         default:
             return ["default" => "data"];
     }

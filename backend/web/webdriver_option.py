@@ -10,13 +10,13 @@ def configure_edge_options():
     options = webdriver.EdgeOptions()
 
     # 調適用：可取消註解顯示視窗
-    # options.add_argument("--headless=new")
+    options.add_argument("--headless=new")
 
     options.add_argument("--disable-gpu")  # Windows 下建議關閉 GPU
     options.add_argument("--no-sandbox")  # 避免權限問題
     options.add_argument("--disable-dev-shm-usage")  # 防止共享記憶體不足錯誤
     options.add_argument("--disable-software-rasterizer")
-    options.add_argument("--window-size=1920,1080")
+    options.add_argument("--window-size=1280,720")
     options.add_argument("--inprivate")  # 無痕模式
     options.add_argument("--disable-extensions")
     options.add_argument("--remote-debugging-port=9222")
