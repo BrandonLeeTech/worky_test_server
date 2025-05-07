@@ -2,7 +2,7 @@
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8">
-  <title>測試任務表單</title>
+  <title>測試後台</title>
   <style>
     body {
       font-family: sans-serif;
@@ -32,10 +32,10 @@
   </style>
 </head>
 <body>
-  <h2>測試任務表單</h2>
+  <h2>測試後台</h2>
 
   <form id="testForm" action="send_api.php" method="POST">
-    <label>呼叫 API 測試：
+    <label>呼叫 API：
       <select id="api_target" name="api_target">
         <option value="get-test">測試_get</option>
         <option value="post-test">測試_post</option>
@@ -56,6 +56,7 @@
     <div id="field_common" style="display: none;">
       <label>測試環境：
         <select name="base_url">
+          <option value="https://next-staging-v212x.api.staging.worky.com.tw/">staging v211</option>
           <option value="https://next-staging-v211x.api.staging.worky.com.tw/">staging v211</option>
           <option value="https://next-staging-v210x.api.staging.worky.com.tw/">staging v210</option>
         </select>
@@ -81,10 +82,9 @@
 
     <!-- 商家設置帳戶（目前無額外欄位） -->
     <div id="fields_set_account" style="display: none;">
-      <!-- 可擴充欄位 -->
     </div>
 
-    <button type="submit">送出測試任務</button>
+    <button type="submit">送出測試</button>
   </form>
 
   <!-- 引入外部 JavaScript -->

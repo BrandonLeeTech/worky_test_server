@@ -1,4 +1,5 @@
 <?php
+// 處理請求資料格式
 function getRequestData($target, $post) {
     switch ($target) {
         case "post-test":

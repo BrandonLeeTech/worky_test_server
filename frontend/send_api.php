@@ -1,9 +1,11 @@
 <?php
-require_once 'get_request.php';
+// 處理流程，包括訪問的 server 位置、判斷使用 target
+require_once __DIR__ . '/includes/get_request.php';
+require_once __DIR__ . '/includes/render_response.php';
 
 $environments = [
-  "local" => "http://192.168.1.111:8000/",
-  "dev" => "http://127.0.0.1:8000/",
+    "local" => "http://192.168.1.111:8000/",
+    "dev" => "http://127.0.0.1:8000/",
 ];
 $api_target = $_POST['api_target'] ?? '';
 
@@ -30,20 +32,11 @@ if (in_array($api_target, ['get-test'])) {
 $response = curl_exec($ch);
 curl_close($ch);
 
-// 輸出
-$result = json_decode($response, true);
+// 呼叫統一顯示邏輯
+renderResponse($response);
 
-// 顯示結果欄位
-foreach (['status', 'result', 'message', 'msg', 'info'] as $field) {
-    if (isset($result[$field])) {
-        echo "<p><b>$field</b>：{$result[$field]}</p>";
-    }
-}
-
-echo "<pre>Response：</pre>";
-echo "<pre>" . json_encode($result, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE) . "</pre>";
-
+// 顯示 cURL 錯誤（若有）
 if (curl_errno($ch)) {
-    echo "<pre style='color:red;'>cURL 錯誤：" . curl_error($ch) . "</pre>";
+    echo "<pre style='color:red;'>cURL 錯誤: " . curl_error($ch) . "</pre>";
 }
 ?>
