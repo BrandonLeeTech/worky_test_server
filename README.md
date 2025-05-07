@@ -9,23 +9,16 @@
 
 ![image.png](note_img/image.png)
 
-別的機器可透過 [http://192.168.1.111/php_python_api_demo/frontend/index.html](http://192.168.1.111/php_python_api_demo/frontend/index.html) 來訪問前臺
-
 ## 目錄
 
 - [前端架構](#1-前端-frontend-資料夾)
 - [後端架構](#2-後端-backend-資料夾)
-- [PHP 前臺](#3-下載-apache)
+- [PHP 前臺](#3-下載-Apache)
 - [uvicorn Server](#4-建立-python-環境)
--
-打開 Apache Server (80)
 
-👉 **[前往測試後台](http://192.168.1.111/worky_test_server/frontend/index.html)**
+打開 Apache Server (80)後，👉 **[前往'測試前台'](http://192.168.1.111/worky_test_server/frontend/index.html)**
 
-打開 uvicorn (8000)
-
-👉 **[前往 uvicorn web](http://192.168.1.111:8000)**
-
+打開 uvicorn (8000)後，👉 **[前往'快速測試後端'](http://192.168.1.111:8000)**
 
 ## 1. 前端 frontend 資料夾
 
