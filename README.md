@@ -116,7 +116,7 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 
 
 
-## 3. PHP 前臺
+## PHP 前臺
 
 下載 Apache xampp
 
