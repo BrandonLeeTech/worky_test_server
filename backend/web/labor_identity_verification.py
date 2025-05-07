@@ -36,7 +36,7 @@ def labor_verify(background, labor_phone):
         click_action.click_by_locating("ID", "w2", "查詢")
         time.sleep(2)
         # 點擊 "待認證"
-        click_action.click_by_locating("Xpath", "//span[normalize-space(text())='待認證']", "審核")
+        click_action.click_by_locating("Xpath", "//span[contains(@class, 'btnValidate') and normalize-space()='未認證']", "審核")
         time.sleep(2)
         # 點擊 "通過" > "確定"
         click_action.click_by_locating(

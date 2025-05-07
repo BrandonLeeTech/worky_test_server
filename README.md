@@ -1,7 +1,7 @@
 # Project Overview
 本專案用自建 API 測試 Worky APP，主要用來餵資料 -2025/5
 
-👉 **[點我前往 uvicorn web](http://192.168.1.111:8000/docs#/)**
+👉 **[點我前往 uvicorn web](http://192.168.1.111:8000)**
 👉 **[點我前往測試頁面](http://192.168.1.111/worky_test_server/frontend/index.html)**
 
 

@@ -1760,3 +1760,102 @@ INFO:root:定位: 通過
 INFO:root:點擊: 通過
 INFO:root:定位: 確定
 INFO:root:點擊: 確定
+INFO:root:📌 測試 API : 101
+INFO:root:📌 測試 API : 201
+INFO:root:儲存 [L_register_code]:7774
+INFO:root:[SET] : L_register_code => 7774
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "L_register_code"}
+INFO:root:[GET] : L_register_code
+INFO:root:獲取 [L_register_code] => 7774
+INFO:root:📌 測試 API : 202
+INFO:root:[SET] : L_TOKEN => 9ff56aa9da6375fca6b7e692fb9cd62e25a73f0b17fe4ecfe6a5fc77d3937a06|2|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "L_TOKEN"}
+INFO:root:[GET] : L_TOKEN
+INFO:root:獲取 [L_TOKEN] => 9ff56aa9da6375fca6b7e692fb9cd62e25a73f0b17fe4ecfe6a5fc77d3937a06|2|staging
+INFO:root:📌 測試 API : 201
+INFO:root:📌 測試 API : 201
+INFO:root:儲存 [L_register_code]:3258
+INFO:root:[SET] : L_register_code => 3258
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "L_register_code"}
+INFO:root:[GET] : L_register_code
+INFO:root:獲取 [L_register_code] => 3258
+INFO:root:📌 測試 API : 202
+INFO:root:儲存 [L_TOKEN]:58668ee03b97c0a640a9f005bbdaf1550e787a78a0218e8e610a838d4bc0d07c|2|staging
+INFO:root:[SET] : L_TOKEN => 58668ee03b97c0a640a9f005bbdaf1550e787a78a0218e8e610a838d4bc0d07c|2|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "L_TOKEN"}
+INFO:root:[GET] : L_TOKEN
+INFO:root:獲取 [L_TOKEN] => 58668ee03b97c0a640a9f005bbdaf1550e787a78a0218e8e610a838d4bc0d07c|2|staging
+INFO:root:📌 測試 API : 303
+INFO:root:[SET] : labor_profile_image => https://next-staging-v211x.res.staging.worky.com.tw/upload/worky/labor-profile-images/df/df8490e700f6fb0b9530c03f99418187.png
+INFO:root:儲存 [labor_profile_image]:https://next-staging-v211x.res.staging.worky.com.tw/upload/worky/labor-profile-images/df/df8490e700f6fb0b9530c03f99418187.png
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "labor_1"}
+INFO:root:[GET] : labor_1
+INFO:root:獲取 [labor_1] => None
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "L_TOKEN"}
+INFO:root:[GET] : L_TOKEN
+INFO:root:獲取 [L_TOKEN] => 58668ee03b97c0a640a9f005bbdaf1550e787a78a0218e8e610a838d4bc0d07c|2|staging
+INFO:root:📌 測試 API : 303
+INFO:root:📌 測試 API : 201
+INFO:root:[SET] : L_register_code => 4596
+INFO:root:儲存 [L_register_code]:4596
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "L_register_code"}
+INFO:root:[GET] : L_register_code
+INFO:root:獲取 [L_register_code] => 4596
+INFO:root:📌 測試 API : 202
+INFO:root:儲存 [L_TOKEN]:051f654e6bdc0e31c8b8852b8352f08ededc7a095e00bfeb3f615ac2f614185c|2|staging
+INFO:root:[SET] : L_TOKEN => 051f654e6bdc0e31c8b8852b8352f08ededc7a095e00bfeb3f615ac2f614185c|2|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "L_TOKEN"}
+INFO:root:[GET] : L_TOKEN
+INFO:root:獲取 [L_TOKEN] => 051f654e6bdc0e31c8b8852b8352f08ededc7a095e00bfeb3f615ac2f614185c|2|staging
+INFO:root:📌 測試 API : 303
+INFO:root:儲存 [labor_profile_image]:https://next-staging-v211x.res.staging.worky.com.tw/upload/worky/labor-profile-images/16/16e96ae6416437d8340079dfa9ee0fbd.png
+INFO:root:[SET] : labor_profile_image => https://next-staging-v211x.res.staging.worky.com.tw/upload/worky/labor-profile-images/16/16e96ae6416437d8340079dfa9ee0fbd.png
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "L_TOKEN"}
+INFO:root:[GET] : L_TOKEN
+INFO:root:獲取 [L_TOKEN] => 051f654e6bdc0e31c8b8852b8352f08ededc7a095e00bfeb3f615ac2f614185c|2|staging
+INFO:root:📌 測試 API : 303
+INFO:root:儲存 [labor_id_card_image]:https://next-staging-v211x.res.staging.worky.com.tw/upload/worky/labor-id-card-images/94/942723550111303da6188d6eaf7ab2da.png
+
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "L_TOKEN"}
+INFO:root:[GET] : L_TOKEN
+INFO:root:獲取 [L_TOKEN] => 051f654e6bdc0e31c8b8852b8352f08ededc7a095e00bfeb3f615ac2f614185c|2|staging
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "labor_profile_image"}
+INFO:root:[GET] : labor_profile_image
+INFO:root:獲取 [labor_profile_image] => https://next-staging-v211x.res.staging.worky.com.tw/upload/worky/labor-profile-images/16/16e96ae6416437d8340079dfa9ee0fbd.png
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "labor_id_card_image"}
+INFO:root:[GET] : labor_id_card_image
+INFO:root:獲取 [labor_id_card_image] => https://next-staging-v211x.res.staging.worky.com.tw/upload/worky/labor-id-card-images/94/942723550111303da6188d6eaf7ab2da.png
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "labor_id_card_image"}
+INFO:root:[GET] : labor_id_card_image
+INFO:root:獲取 [labor_id_card_image] => https://next-staging-v211x.res.staging.worky.com.tw/upload/worky/labor-id-card-images/94/942723550111303da6188d6eaf7ab2da.png
+INFO:root:📌 測試 API : 205-1
+INFO:root:送出指令: {"action": "GET_DATA", "tag": "L_TOKEN"}
+INFO:root:[GET] : L_TOKEN
+INFO:root:獲取 [L_TOKEN] => 051f654e6bdc0e31c8b8852b8352f08ededc7a095e00bfeb3f615ac2f614185c|2|staging
+INFO:root:📌 測試 API : 205-2
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:About to download new driver from https://msedgedriver.azureedge.net/135.0.3179.98/edgedriver_win64.zip
+INFO:WDM:Driver downloading response is 200
+INFO:WDM:Get LATEST edgedriver version for Edge 135.0.3179
+INFO:WDM:Driver has been saved in cache [C:\Users\brandon.lee\.wdm\drivers\edgedriver\win64\135.0.3179.98]
+INFO:root:定位: 
+INFO:root:輸入: brandon.lee
+INFO:root:定位: 
+INFO:root:輸入: brandon7068l7
+INFO:root:定位: 登入
+INFO:root:點擊: 登入
+INFO:root:定位: home
+INFO:root:點擊: home
+INFO:root:定位: 打工夥伴
+INFO:root:點擊: 打工夥伴
+INFO:root:定位: 打工夥伴管理
+INFO:root:點擊: 打工夥伴管理
+INFO:root:定位: 
+INFO:root:輸入: 0905070002
+INFO:root:定位: 查詢
+INFO:root:點擊: 查詢
+INFO:root:定位: 審核
+ERROR:root:[301] 無法定位元素的 Xpath: //span[normalize-space(text())='待認證'] 
