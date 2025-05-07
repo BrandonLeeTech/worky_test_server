@@ -11,16 +11,16 @@
 
 ## 目錄
 
-- [前端架構](#1-前端-frontend-資料夾)
-- [後端架構](#2-後端-backend-資料夾)
-- [PHP 前臺](#3-下載-Apache)
-- [uvicorn Server](#4-建立-python-環境)
+- [前端架構](#前端架構)
+- [後端架構](#後端架構)
+- [PHP 前臺](#PHP-前臺)
+- [uvicorn Server](#uvicorn-Server)
 
 打開 Apache Server (80)後，👉 **[前往'測試前台'](http://192.168.1.111/worky_test_server/frontend/index.html)**
 
 打開 uvicorn (8000)後，👉 **[前往'快速測試後端'](http://192.168.1.111:8000)**
 
-## 1. 前端 frontend 資料夾
+## 前端架構
 
 展示測試平台的顯示邏輯
 
@@ -72,7 +72,7 @@
 
 
 
-## 2. 後端 backend 資料夾
+## 後端架構
 
 處理前端呼叫的 API，使用自己打包的 API (重新打包時要重啟 uvicorn)
 
@@ -116,7 +116,9 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 
 
 
-## 3. 下載 Apache
+## 3. PHP 前臺
+
+下載 Apache xampp
 
 [Apache 下載位置](https://www.apachefriends.org/download.html)
 
@@ -131,8 +133,9 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 ![image.png](note_img/image24.png)
 
 
+## uvicorn Server
 
-## 4. 建立 python 環境
+建立 python 環境
 
 1. clone 專案
 
