@@ -151,9 +151,9 @@ git clone http://122.147.190.35/SQATP/worky_test_server.git
 2. 啟動虛擬環境(也可以用 conda)
 
 ```bash
-cd C:\xampp\htdocs\worky_test_server
-python -m venv venv
-venv\Scripts\activate
+cd C:\xampp\htdocs\worky_test_server\backend
+python -m venv venv   # 建立虛擬環境
+venv\Scripts\activate # 啟用虛擬環境（Windows）
 ```
 
 3. 下載依賴包
